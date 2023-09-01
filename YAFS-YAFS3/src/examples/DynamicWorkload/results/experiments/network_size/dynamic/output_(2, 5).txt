@@ -1,0 +1,279 @@
+ 
+----Experiment repeat time:0----
+---------Iteration Time 1---------
+initial plan average measured latency: 272.45493696688334
+initial plan average estimated latency: 247.4967342617172
+current plan's average static latency: 247.4967342617172
+current plan's average measured latency: 272.45493696688334
+current plan's measued latency in each workflow {'M.USER.APP.0': 35.080017000000026, 'M.USER.APP.1': 27.320045199999996, 'M.USER.APP.2': 28.70011738888885, 'M.USER.APP.3': 45.90006199761906, 'M.USER.APP.4': 78.36373096536816, 'M.USER.APP.5': 57.09096441500726}
+whether adaptation required: False
+ 
+----Experiment repeat time:1----
+---------Iteration Time 1---------
+initial plan average measured latency: 252.5022466069265
+initial plan average estimated latency: 228.4076771987013
+current plan's average static latency: 228.4076771987013
+current plan's average measured latency: 252.5022466069265
+current plan's measued latency in each workflow {'M.USER.APP.0': 12.24013026666667, 'M.USER.APP.1': 30.080038814285714, 'M.USER.APP.2': 51.636444402597405, 'M.USER.APP.3': 55.63641564069268, 'M.USER.APP.4': 59.727349911255345, 'M.USER.APP.5': 43.18186757142868}
+whether adaptation required: False
+ 
+----Experiment repeat time:2----
+---------Iteration Time 1---------
+initial plan average measured latency: 272.07659412958157
+initial plan average estimated latency: 261.7111355962482
+current plan's average static latency: 261.7111355962482
+current plan's average measured latency: 272.07659412958157
+current plan's measued latency in each workflow {'M.USER.APP.0': 47.52005863047621, 'M.USER.APP.1': 37.92003336000002, 'M.USER.APP.2': 28.10003521666666, 'M.USER.APP.3': 39.90004793888888, 'M.USER.APP.4': 59.90912883636367, 'M.USER.APP.5': 58.72729014718614}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 213.00130511746033
+current_average_latency: 273.80326362720064
+effective_average_latency: 230.59093400204455
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 244.43109139321788
+current plan's average measured latency: 281.67482232178895
+current plan's measued latency in each workflow {'M.USER.APP.0': 29.3200383352381, 'M.USER.APP.1': 28.40002381714287, 'M.USER.APP.2': 43.50005237142845, 'M.USER.APP.3': 40.18187382683983, 'M.USER.APP.4': 84.6364175555554, 'M.USER.APP.5': 55.636416415584286}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 186.00282384761903
+current_average_latency: 282.0798235622651
+effective_average_latency: 201.31052748398437
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 3---------
+current plan's average static latency: 213.07675472142856
+current plan's average measured latency: 231.26948262215598
+current plan's measued latency in each workflow {'M.USER.APP.0': 24.560015368000016, 'M.USER.APP.1': 36.00001461714285, 'M.USER.APP.2': 24.300046449999996, 'M.USER.APP.3': 29.500067180952378, 'M.USER.APP.4': 69.0911417878789, 'M.USER.APP.5': 47.818197218181815}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 191.00136493968253
+current_average_latency: 231.87614954415596
+effective_average_latency: 204.28642798930517
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 4---------
+current plan's average static latency: 219.19109621847042
+current plan's average measured latency: 243.8929842301585
+current plan's measued latency in each workflow {'M.USER.APP.0': 24.320015419047618, 'M.USER.APP.1': 23.400069557142857, 'M.USER.APP.2': 27.90003937142845, 'M.USER.APP.3': 44.90913180952382, 'M.USER.APP.4': 60.09095158989901, 'M.USER.APP.5': 63.27277648311674}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 180.00186438095238
+current_average_latency: 243.9229842480156
+effective_average_latency: 191.39717689941256
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 5---------
+current plan's average static latency: 210.70026580173163
+current plan's average measured latency: 237.3348831617315
+current plan's measued latency in each workflow {'M.USER.APP.0': 16.56003882666667, 'M.USER.APP.1': 14.320047085714286, 'M.USER.APP.2': 45.818281784415475, 'M.USER.APP.3': 39.00006596190477, 'M.USER.APP.4': 57.72730764848487, 'M.USER.APP.5': 63.909141854545446}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 251.00117518730158
+current_average_latency: 237.37154984458866
+effective_average_latency: 270.7751454168841
+whether adaptation worthy: False
+ 
+----Experiment repeat time:3----
+---------Iteration Time 1---------
+initial plan average measured latency: 229.32750687958156
+initial plan average estimated latency: 224.41114264059166
+current plan's average static latency: 224.41114264059166
+current plan's average measured latency: 229.32750687958156
+current plan's measued latency in each workflow {'M.USER.APP.0': 44.880033913650806, 'M.USER.APP.1': 17.32002375238096, 'M.USER.APP.2': 27.800031049999994, 'M.USER.APP.3': 45.909129383838376, 'M.USER.APP.4': 54.51824639971142, 'M.USER.APP.5': 38.900042379999995}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 150.001902615873
+current_average_latency: 230.0441742572006
+effective_average_latency: 160.4799371964661
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 176.89664146139975
+current plan's average measured latency: 181.4439197701298
+current plan's measued latency in each workflow {'M.USER.APP.0': 22.200045133333333, 'M.USER.APP.1': 26.48004692380953, 'M.USER.APP.2': 33.100084, 'M.USER.APP.3': 35.90006138095235, 'M.USER.APP.4': 25.40001303333334, 'M.USER.APP.5': 38.363669298701254}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 127.00146007619047
+current_average_latency: 181.51392058864832
+effective_average_latency: 134.89777956085427
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 3---------
+current plan's average static latency: 150.3802144552381
+current plan's average measured latency: 155.34023294714285
+current plan's measued latency in each workflow {'M.USER.APP.0': 20.56003215999999, 'M.USER.APP.1': 28.080043790476196, 'M.USER.APP.2': 16.20003850000001, 'M.USER.APP.3': 37.100042033333295, 'M.USER.APP.4': 16.10006633333336, 'M.USER.APP.5': 37.30001012999999}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 146.0021032952381
+current_average_latency: 155.70023306214284
+effective_average_latency: 156.36904131711586
+whether adaptation worthy: False
+ 
+----Experiment repeat time:4----
+---------Iteration Time 1---------
+initial plan average measured latency: 232.98566600487732
+initial plan average estimated latency: 216.61839173780663
+current plan's average static latency: 216.61839173780663
+current plan's average measured latency: 232.98566600487732
+current plan's measued latency in each workflow {'M.USER.APP.0': 20.56003215999999, 'M.USER.APP.1': 21.480024900000007, 'M.USER.APP.2': 20.300076166666667, 'M.USER.APP.3': 63.000035965367964, 'M.USER.APP.4': 41.100028533333315, 'M.USER.APP.5': 66.54546827950936}
+whether adaptation required: False
+ 
+----Experiment repeat time:5----
+---------Iteration Time 1---------
+initial plan average measured latency: 209.16943659242418
+initial plan average estimated latency: 195.3348202638889
+current plan's average static latency: 195.3348202638889
+current plan's average measured latency: 209.16943659242418
+current plan's measued latency in each workflow {'M.USER.APP.0': 24.24004693333333, 'M.USER.APP.1': 29.12004585000004, 'M.USER.APP.2': 27.100040666666654, 'M.USER.APP.3': 58.27279074747468, 'M.USER.APP.4': 36.636446494949524, 'M.USER.APP.5': 33.80006589999992}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 107.00199787936508
+current_average_latency: 209.51777000700747
+effective_average_latency: 114.08077760780387
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 127.5184793511544
+current plan's average measured latency: 132.8966902196969
+current plan's measued latency in each workflow {'M.USER.APP.0': 12.4800324, 'M.USER.APP.1': 14.480049066666673, 'M.USER.APP.2': 29.500039949999994, 'M.USER.APP.3': 25.900081166666602, 'M.USER.APP.4': 11.900095999999998, 'M.USER.APP.5': 38.63639163636364}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 87.0013053968254
+current_average_latency: 132.93669023451173
+effective_average_latency: 91.72840655925887
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 3---------
+current plan's average static latency: 103.46282764213564
+current plan's average measured latency: 107.25740050909084
+current plan's measued latency in each workflow {'M.USER.APP.1': 20.240027599999994, 'M.USER.APP.2': 20.100032000000006, 'M.USER.APP.3': 40.27279513131305, 'M.USER.APP.4': 25.200082666666667, 'M.USER.APP.5': 1.4444631111111077}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 153.00209604444444
+current_average_latency: 107.26740052020193
+effective_average_latency: 162.86137263159003
+whether adaptation worthy: False
+ 
+----Experiment repeat time:6----
+---------Iteration Time 1---------
+initial plan average measured latency: 258.2257383782828
+initial plan average estimated latency: 244.79845484191918
+current plan's average static latency: 244.79845484191918
+current plan's average measured latency: 258.2257383782828
+current plan's measued latency in each workflow {'M.USER.APP.0': 33.08002926666666, 'M.USER.APP.1': 33.00003119999999, 'M.USER.APP.2': 38.600039949999996, 'M.USER.APP.3': 50.09095355555556, 'M.USER.APP.4': 48.90918487878786, 'M.USER.APP.5': 54.545499527272746}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 155.00162422222223
+current_average_latency: 258.9790723282828
+effective_average_latency: 167.12455342247475
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 181.64569048989904
+current plan's average measured latency: 194.40750601767667
+current plan's measued latency in each workflow {'M.USER.APP.0': 19.40003603333334, 'M.USER.APP.1': 20.480019733333346, 'M.USER.APP.2': 48.81824178030306, 'M.USER.APP.3': 29.500014355555557, 'M.USER.APP.4': 42.909141515151376, 'M.USER.APP.5': 33.30005260000003}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 185.00142424126986
+current_average_latency: 194.4441727000841
+effective_average_latency: 197.6048380143137
+whether adaptation worthy: False
+ 
+----Experiment repeat time:7----
+---------Iteration Time 1---------
+initial plan average measured latency: 257.14974740357854
+initial plan average estimated latency: 249.87517600075034
+current plan's average static latency: 249.87517600075034
+current plan's average measured latency: 257.14974740357854
+current plan's measued latency in each workflow {'M.USER.APP.0': 29.36004822222221, 'M.USER.APP.1': 31.480354082222224, 'M.USER.APP.2': 41.20007314999999, 'M.USER.APP.3': 42.1819027979798, 'M.USER.APP.4': 75.72734230591624, 'M.USER.APP.5': 37.20002684523809}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 113.00139262222223
+current_average_latency: 257.47642704357855
+effective_average_latency: 120.50861384928926
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 138.80019927730157
+current plan's average measured latency: 142.08019939920635
+current plan's measued latency in each workflow {'M.USER.APP.0': 3.0400303999999987, 'M.USER.APP.1': 24.64005868825398, 'M.USER.APP.2': 22.700046300000004, 'M.USER.APP.3': 25.50001549206349, 'M.USER.APP.4': 47.60003813888888, 'M.USER.APP.5': 18.600010379999993}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 185.00194796825397
+current_average_latency: 142.1085326912434
+effective_average_latency: 199.3111114200248
+whether adaptation worthy: False
+ 
+----Experiment repeat time:8----
+---------Iteration Time 1---------
+initial plan average measured latency: 225.3366875981529
+initial plan average estimated latency: 209.60577546204905
+current plan's average static latency: 209.60577546204905
+current plan's average measured latency: 225.3366875981529
+current plan's measued latency in each workflow {'M.USER.APP.0': 47.64003901936508, 'M.USER.APP.1': 28.160054799999997, 'M.USER.APP.2': 14.7000799, 'M.USER.APP.3': 27.200068666666663, 'M.USER.APP.4': 60.90914279292928, 'M.USER.APP.5': 46.727302419191886}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 118.00198323809525
+current_average_latency: 226.62002151556032
+effective_average_latency: 124.90841584581429
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 143.80030394285714
+current plan's average measured latency: 147.6603071007936
+current plan's measued latency in each workflow {'M.USER.APP.0': 4.080026933333335, 'M.USER.APP.1': 28.480034622222217, 'M.USER.APP.2': 27.200149388888878, 'M.USER.APP.3': 18.80003433333333, 'M.USER.APP.4': 42.40005387301587, 'M.USER.APP.5': 26.700007949999996}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 214.00210376190478
+current_average_latency: 147.68364045264548
+effective_average_latency: 227.12846553784826
+whether adaptation worthy: False
+ 
+----Experiment repeat time:9----
+---------Iteration Time 1---------
+initial plan average measured latency: 279.578586532726
+initial plan average estimated latency: 265.8040455744228
+current plan's average static latency: 265.8040455744228
+current plan's average measured latency: 279.578586532726
+current plan's measued latency in each workflow {'M.USER.APP.0': 48.56003911085714, 'M.USER.APP.1': 34.00005025999999, 'M.USER.APP.2': 46.90927475757576, 'M.USER.APP.3': 27.20005728333333, 'M.USER.APP.4': 69.45458894823248, 'M.USER.APP.5': 53.45457617272729}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 177.0017113142857
+current_average_latency: 281.18525379123395
+effective_average_latency: 192.60997338293046
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 2---------
+current plan's average static latency: 209.44752435121214
+current plan's average measured latency: 215.5675399085714
+current plan's measued latency in each workflow {'M.USER.APP.0': 39.12003504285716, 'M.USER.APP.1': 13.320027085714289, 'M.USER.APP.2': 37.60003176666666, 'M.USER.APP.3': 45.72735799999999, 'M.USER.APP.4': 30.80005038333332, 'M.USER.APP.5': 49.000037629999994}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 163.00178626031746
+current_average_latency: 216.29420674626982
+effective_average_latency: 175.1827238175719
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 3---------
+current plan's average static latency: 191.96026188998553
+current plan's average measured latency: 210.37117156838977
+current plan's measued latency in each workflow {'M.USER.APP.0': 38.12004860736509, 'M.USER.APP.1': 14.560028826666658, 'M.USER.APP.2': 33.90003281999999, 'M.USER.APP.3': 39.80002586111111, 'M.USER.APP.4': 31.900086700000003, 'M.USER.APP.5': 52.09094875324693}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 152.00135314285714
+current_average_latency: 210.8578391387231
+effective_average_latency: 164.73309076179166
+whether adaptation worthy: True
+Start deploy new plan!
+---------Iteration Time 4---------
+current plan's average static latency: 171.20020912073593
+current plan's average measured latency: 175.0383934483117
+current plan's measued latency in each workflow {'M.USER.APP.0': 37.92005756666668, 'M.USER.APP.1': 30.40002229333335, 'M.USER.APP.2': 52.81821630735931, 'M.USER.APP.3': 23.000006514285715, 'M.USER.APP.4': 9.400046, 'M.USER.APP.5': 21.50004476666667}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 183.0020553015873
+current_average_latency: 175.88506142164505
+effective_average_latency: 198.3858303265902
+whether adaptation worthy: False

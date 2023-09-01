@@ -1,0 +1,115 @@
+Start dynamic Scheduling of different rate of message generation 
+initial placement: [[87, 28, 9, 2, 0, 86], [111, 111, 111, 111, 111, 111], [108, 108, 108, 108, 35, 35], [24, 24, 24, 24, 24, 24], [73, 73, 24, 0, 33, 62], [66, 66, 66, 66, 66, 6]]
+ 
+**************************lambda rate is************************** 150
+---------Iteration Time 1---------
+initial plan average measured latency: 284.37878501612084
+initial plan average estimated latency: 262.00064861507934
+current plan's average static latency: 262.00064861507934
+current plan's average measured latency: 284.37878501612084
+current plan's measued latency in each workflow {'M.USER.APP.0': 79.3313830788689, 'M.USER.APP.1': 28.409404297867063, 'M.USER.APP.2': 25.343781994047657, 'M.USER.APP.3': 36.468782430555464, 'M.USER.APP.4': 94.29412389880953, 'M.USER.APP.5': 20.531309315972223}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 110.00243733333333
+current_average_latency: 284.2845274939834
+effective_average_latency: 118.99257153191516
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[99, 99, 32, 32, 32, 10], [26, 26, 26, 26, 26, 26], [16, 16, 16, 16, 16, 5], [39, 39, 12, 12, 12, 12], [17, 17, 17, 1, 0, 0], [4, 4, 4, 4, 4, 4]]
+---------Iteration Time 2---------
+current plan's average static latency: 110.00024144444444
+current plan's average measured latency: 112.03774246180552
+current plan's measued latency in each workflow {'M.USER.APP.0': 25.318813760416685, 'M.USER.APP.1': 7.093761979166668, 'M.USER.APP.2': 14.093836406250002, 'M.USER.APP.3': 37.53128138888889, 'M.USER.APP.4': 16.468791468749934, 'M.USER.APP.5': 11.53125745833333}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 100.00167085714287
+current_average_latency: 112.10346830107522
+effective_average_latency: 107.9112343972962
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[6, 6, 1, 1, 0, 0], [95, 95, 95, 95, 95, 95], [77, 77, 77, 77, 25, 25], [15, 15, 15, 4, 4, 4], [54, 54, 54, 54, 54, 17], [99, 99, 99, 99, 99, 99]]
+---------Iteration Time 3---------
+current plan's average static latency: 100.00021435714285
+current plan's average measured latency: 108.48772152380954
+current plan's measued latency in each workflow {'M.USER.APP.0': 7.3313110208333185, 'M.USER.APP.1': 27.00002408630954, 'M.USER.APP.2': 27.25006022916667, 'M.USER.APP.3': 4.0312678124999985, 'M.USER.APP.4': 16.25003164583333, 'M.USER.APP.5': 26.625026729166684}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 132.00427617777777
+current_average_latency: 108.56796364746546
+effective_average_latency: 143.29682914482441
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 100
+---------Iteration Time 1---------
+current plan's average static latency: 260.9274708464963
+current plan's average measured latency: 293.05922499477356
+current plan's measued latency in each workflow {'M.USER.APP.0': 82.40013525048383, 'M.USER.APP.1': 29.800042302555184, 'M.USER.APP.2': 26.09515810065821, 'M.USER.APP.3': 38.878090947348014, 'M.USER.APP.4': 95.12964116608602, 'M.USER.APP.5': 20.75615722764229}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 114.00173028571429
+current_average_latency: 294.60319632738094
+effective_average_latency: 121.76915496641001
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[34, 34, 3, 3, 0, 0], [61, 61, 61, 61, 61, 61], [50, 50, 50, 50, 50, 50], [15, 15, 15, 15, 15, 4], [96, 96, 96, 96, 31, 31], [1, 1, 1, 1, 1, 1]]
+---------Iteration Time 2---------
+current plan's average static latency: 114.00035528571428
+current plan's average measured latency: 119.4150099756099
+current plan's measued latency in each workflow {'M.USER.APP.0': 33.512277682926815, 'M.USER.APP.1': 24.04883048373995, 'M.USER.APP.2': 20.95128581707319, 'M.USER.APP.3': 4.048913902439019, 'M.USER.APP.4': 34.80491516260165, 'M.USER.APP.5': 2.0487869268292727}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 119.00350170158731
+current_average_latency: 119.50037615119062
+effective_average_latency: 127.18126812727249
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 70
+---------Iteration Time 1---------
+current plan's average static latency: 259.08887270010507
+current plan's average measured latency: 301.07420802958694
+current plan's measued latency in each workflow {'M.USER.APP.0': 85.0368983167599, 'M.USER.APP.1': 30.910331742997286, 'M.USER.APP.2': 26.04268265102711, 'M.USER.APP.3': 41.80886651727355, 'M.USER.APP.4': 96.21654517734609, 'M.USER.APP.5': 21.05888362418302}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 119.0019063111111
+current_average_latency: 303.27381392170105
+effective_average_latency: 127.45139606584607
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[31, 31, 3, 3, 0, 0], [60, 60, 60, 60, 60, 60], [65, 65, 65, 65, 65, 65], [15, 4, 4, 4, 4, 4], [82, 82, 82, 82, 27, 27], [69, 69, 69, 69, 69, 69]]
+---------Iteration Time 2---------
+current plan's average static latency: 118.57380008594774
+current plan's average measured latency: 133.36501939607862
+current plan's measued latency in each workflow {'M.USER.APP.0': 31.64420363235293, 'M.USER.APP.1': 22.441239264706063, 'M.USER.APP.2': 20.117707450980447, 'M.USER.APP.3': 4.0588442647058915, 'M.USER.APP.4': 27.5735755441177, 'M.USER.APP.5': 27.529449239215573}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 102.0015051111111
+current_average_latency: 133.89285245737992
+effective_average_latency: 109.41922190670999
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[61, 20, 6, 6, 1, 1], [19, 19, 19, 19, 19, 19], [25, 25, 25, 25, 25, 25], [15, 15, 15, 15, 15, 4], [99, 99, 99, 99, 32, 32], [65, 65, 65, 65, 65, 65]]
+---------Iteration Time 3---------
+current plan's average static latency: 101.85326604575161
+current plan's average measured latency: 105.86798471732024
+current plan's measued latency in each workflow {'M.USER.APP.0': 30.750077220588203, 'M.USER.APP.1': 20.26472984967321, 'M.USER.APP.2': 15.338272911764719, 'M.USER.APP.3': 4.058956985294113, 'M.USER.APP.4': 22.397118534313734, 'M.USER.APP.5': 13.058829215686263}
+whether adaptation required: True
+Start creating new plan!
+planning_average_latency: 110.00271822222223
+current_average_latency: 106.07496565132668
+effective_average_latency: 117.9403275431331
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 30
+---------Iteration Time 1---------
+current plan's average static latency: 259.7842220140073
+current plan's average measured latency: 382.28301539371535
+current plan's measued latency in each workflow {'M.USER.APP.0': 120.95021490428773, 'M.USER.APP.1': 36.064984184138794, 'M.USER.APP.2': 28.59258826320778, 'M.USER.APP.3': 62.04489831674933, 'M.USER.APP.4': 111.50340227508289, 'M.USER.APP.5': 23.12692745024876}
+whether adaptation required: False
+ 
+**************************lambda rate is************************** 10
+---------Iteration Time 1---------
+current plan's average static latency: 178.28753427681528
+current plan's average measured latency: 6873.914756501907
+current plan's measued latency in each workflow {'M.USER.APP.0': 2521.338170295087, 'M.USER.APP.1': 541.3807302788882, 'M.USER.APP.2': 397.7293922704015, 'M.USER.APP.3': 1648.5130655962969, 'M.USER.APP.4': 1718.21067013164, 'M.USER.APP.5': 46.74272792959369}
+whether adaptation required: False
+each lr results: [108.48772152380954, 119.4150099756099, 105.86798471732024, 382.28301539371535, 6873.914756501907]

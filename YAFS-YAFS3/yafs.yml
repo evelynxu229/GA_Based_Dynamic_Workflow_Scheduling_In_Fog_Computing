@@ -1,0 +1,62 @@
+"module": [
+      {
+        "id": 101,
+        "name": "10_01",
+        "type": "SOURCE",
+        "RAM": 250
+      },
+      {
+        "id": 102,
+        "name": "10_02",
+        "type": "MODULE",
+        "RAM": 500
+      },
+      {
+        "id": 103,
+        "name": "10_03",
+        "type": "MODULE",
+        "RAM": 1000
+      },
+      {
+        "id": 104,
+        "name": "10_04",
+        "type": "MODULE",
+        "RAM": 400
+      },
+      {
+        "id": 105,
+        "name": "10_05",
+        "type": "MODULE",
+        "RAM": 250
+      },
+      {
+        "id": 106,
+        "name": "10_06",
+        "type": "MODULE",
+        "RAM": 50
+      },
+      {
+        "id": 107,
+        "name": "10_07",
+        "type": "MODULE",
+        "RAM": 550
+      },
+      {
+        "id": 108,
+        "name": "10_08",
+        "type": "MODULE",
+        "RAM": 1020
+      },
+      {
+        "id": 109,
+        "name": "10_09",
+        "type": "MODULE",
+        "RAM": 1530
+      },
+      {
+        "id": 110,
+        "name": "10_10",
+        "type": "MODULE",
+        "RAM": 320
+      }
+    ]

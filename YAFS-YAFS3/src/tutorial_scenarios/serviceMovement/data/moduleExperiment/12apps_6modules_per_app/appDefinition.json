@@ -1,0 +1,1535 @@
+[
+  {
+    "id": 0,
+    "name": 0,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.0",
+        "message_out": "0_(0-2)",
+        "module": "0_01"
+      },
+      {
+        "message_in": "0_(0-2)",
+        "message_out": "0_(0-3)",
+        "module": "0_02"
+      },
+      {
+        "message_in": "0_(0-3)",
+        "message_out": "0_(0-4)",
+        "module": "0_03"
+      },
+      {
+        "message_in": "0_(0-4)",
+        "message_out": "0_(0-5)",
+        "module": "0_04"
+      },
+      {
+        "message_in": "0_(0-5)",
+        "message_out": "0_(0-6)",
+        "module": "0_05"
+      },
+      {
+        "message_in": "0_(0-6)",
+        "module": "0_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 1,
+        "name": "0_01",
+        "type": "SOURCE",
+        "RAM": 1000
+      },
+      {
+        "id": 2,
+        "name": "0_02",
+        "type": "MODULE",
+        "RAM": 3000
+      },
+      {
+        "id": 3,
+        "name": "0_03",
+        "type": "MODULE",
+        "RAM": 3000
+      },
+      {
+        "id": 4,
+        "name": "0_04",
+        "type": "MODULE",
+        "RAM": 1000
+      },
+      {
+        "id": 5,
+        "name": "0_05",
+        "type": "MODULE",
+        "RAM": 2000
+      },
+      {
+        "id": 6,
+        "name": "0_06",
+        "type": "MODULE",
+        "RAM": 700
+      }
+    ],
+    "message": [
+      {
+        "id": 0,
+        "name": "M.USER.APP.0",
+        "s": "None",
+        "d": "0_01",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 1,
+        "name": "0_(0-2)",
+        "s": "0_01",
+        "d": "0_02",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 2,
+        "name": "0_(0-3)",
+        "s": "0_02",
+        "d": "0_03",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 3,
+        "name": "0_(0-4)",
+        "s": "0_03",
+        "d": "0_04",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 4,
+        "name": "0_(0-5)",
+        "s": "0_04",
+        "d": "0_05",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 5,
+        "name": "0_(0-6)",
+        "s": "0_05",
+        "d": "0_06",
+        "bytes": 80,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": 1,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.1",
+        "message_out": "1_(0-2)",
+        "module": "1_01"
+      },
+      {
+        "message_in": "1_(0-2)",
+        "message_out": "1_(0-3)",
+        "module": "1_02"
+      },
+      {
+        "message_in": "1_(0-3)",
+        "message_out": "1_(0-4)",
+        "module": "1_03"
+      },
+      {
+        "message_in": "1_(0-4)",
+        "message_out": "1_(0-5)",
+        "module": "1_04"
+      },
+      {
+        "message_in": "1_(0-5)",
+        "message_out": "1_(0-6)",
+        "module": "1_05"
+      },
+      {
+        "message_in": "1_(0-6)",
+        "module": "1_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 7,
+        "name": "1_01",
+        "type": "SOURCE",
+        "RAM": 250
+      },
+      {
+        "id": 8,
+        "name": "1_02",
+        "type": "MODULE",
+        "RAM": 500
+      },
+      {
+        "id": 9,
+        "name": "1_03",
+        "type": "MODULE",
+        "RAM": 100
+      },
+      {
+        "id": 10,
+        "name": "1_04",
+        "type": "MODULE",
+        "RAM": 400
+      },
+      {
+        "id": 11,
+        "name": "1_05",
+        "type": "MODULE",
+        "RAM": 250
+      },
+      {
+        "id": 12,
+        "name": "1_06",
+        "type": "MODULE",
+        "RAM": 50
+      }
+    ],
+    "message": [
+       {
+        "id": 6,
+        "name": "M.USER.APP.1",
+        "s": "None",
+        "d": "1_01",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 7,
+        "name": "1_(0-2)",
+        "s": "1_01",
+        "d": "1_02",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 8,
+        "name": "1_(0-3)",
+        "s": "1_02",
+        "d": "1_03",
+        "bytes": 10,
+        "instructions": 30
+      },
+      {
+        "id": 9,
+        "name": "1_(0-4)",
+        "s": "1_03",
+        "d": "1_04",
+        "bytes": 300,
+        "instructions": 30
+      },
+      {
+        "id": 10,
+        "name": "1_(0-5)",
+        "s": "1_04",
+        "d": "1_05",
+        "bytes": 65,
+        "instructions": 30
+      },
+      {
+        "id": 11,
+        "name": "1_(0-6)",
+        "s": "1_05",
+        "d": "1_06",
+        "bytes": 15,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": 2,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.2",
+        "message_out": "2_(0-2)",
+        "module": "2_01"
+      },
+      {
+        "message_in": "2_(0-2)",
+        "message_out": "2_(0-3)",
+        "module": "2_02"
+      },
+      {
+        "message_in": "2_(0-3)",
+        "message_out": "2_(0-4)",
+        "module": "2_03"
+      },
+      {
+        "message_in": "2_(0-4)",
+        "message_out": "2_(0-5)",
+        "module": "2_04"
+      },
+      {
+        "message_in": "2_(0-5)",
+        "message_out": "2_(0-6)",
+        "module": "2_05"
+      },
+      {
+        "message_in": "2_(0-6)",
+        "module": "2_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 13,
+        "name": "2_01",
+        "type": "MODULE",
+        "RAM": 1000
+      },
+      {
+        "id": 14,
+        "name": "2_02",
+        "type": "MODULE",
+        "RAM": 200
+      },
+      {
+        "id": 15,
+        "name": "2_03",
+        "type": "MODULE",
+        "RAM": 63
+      },
+      {
+        "id": 16,
+        "name": "2_04",
+        "type": "MODULE",
+        "RAM": 1000
+      },
+      {
+        "id": 17,
+        "name": "2_05",
+        "type": "MODULE",
+        "RAM": 2500
+      },
+      {
+        "id": 18,
+        "name": "2_06",
+        "type": "MODULE",
+        "RAM": 520
+      }
+    ],
+    "message": [
+      {
+        "id": 12,
+        "name": "M.USER.APP.2",
+        "s": "None",
+        "d": "2_01",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 13,
+        "name": "2_(0-2)",
+        "s": "2_01",
+        "d": "2_02",
+        "bytes": 300,
+        "instructions": 30
+      },
+      {
+        "id": 14,
+        "name": "2_(0-3)",
+        "s": "2_02",
+        "d": "2_03",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 15,
+        "name": "2_(0-4)",
+        "s": "2_03",
+        "d": "2_04",
+        "bytes": 40,
+        "instructions": 30
+      },
+      {
+        "id": 16,
+        "name": "2_(0-5)",
+        "s": "2_04",
+        "d": "2_05",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 17,
+        "name": "2_(0-6)",
+        "s": "2_05",
+        "d": "2_06",
+        "bytes": 90,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": 3,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.3",
+        "message_out": "3_(0-2)",
+        "module": "3_01"
+      },
+      {
+        "message_in": "3_(0-2)",
+        "message_out": "3_(0-3)",
+        "module": "3_02"
+      },
+      {
+        "message_in": "3_(0-3)",
+        "message_out": "3_(0-4)",
+        "module": "3_03"
+      },
+      {
+        "message_in": "3_(0-4)",
+        "message_out": "3_(0-5)",
+        "module": "3_04"
+      },
+      {
+        "message_in": "3_(0-5)",
+        "message_out": "3_(0-6)",
+        "module": "3_05"
+      },
+      {
+        "message_in": "3_(0-6)",
+        "module": "3_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 19,
+        "name": "3_01",
+        "type": "MODULE",
+        "RAM": 2700
+      },
+      {
+        "id": 20,
+        "name": "3_02",
+        "type": "MODULE",
+        "RAM": 700
+      },
+      {
+        "id": 21,
+        "name": "2_03",
+        "type": "MODULE",
+        "RAM": 525
+      },
+      {
+        "id": 22,
+        "name": "2_04",
+        "type": "MODULE",
+        "RAM": 320
+      },
+      {
+        "id": 23,
+        "name": "2_05",
+        "type": "MODULE",
+        "RAM": 100
+      },
+      {
+        "id": 24,
+        "name": "2_06",
+        "type": "MODULE",
+        "RAM": 1000
+      }
+    ],
+    "message": [
+      {
+        "id": 18,
+        "name": "M.USER.APP.3",
+        "s": "None",
+        "d": "3_01",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 19,
+        "name": "3_(0-2)",
+        "s": "3_01",
+        "d": "3_02",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 20,
+        "name": "3_(0-3)",
+        "s": "3_02",
+        "d": "3_03",
+        "bytes": 42,
+        "instructions": 30
+      },
+      {
+        "id": 21,
+        "name": "3_(0-4)",
+        "s": "3_03",
+        "d": "3_04",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 22,
+        "name": "3_(0-5)",
+        "s": "3_04",
+        "d": "3_05",
+        "bytes": 87,
+        "instructions": 30
+      },
+      {
+        "id": 23,
+        "name": "3_(0-6)",
+        "s": "3_05",
+        "d": "3_06",
+        "bytes": 230,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": 4,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.4",
+        "message_out": "4_(0-2)",
+        "module": "4_01"
+      },
+      {
+        "message_in": "4_(0-2)",
+        "message_out": "4_(0-3)",
+        "module": "4_02"
+      },
+      {
+        "message_in": "4_(0-3)",
+        "message_out": "4_(0-4)",
+        "module": "4_03"
+      },
+      {
+        "message_in": "4_(0-4)",
+        "message_out": "4_(0-5)",
+        "module": "4_04"
+      },
+      {
+        "message_in": "4_(0-5)",
+        "message_out": "4_(0-6)",
+        "module": "4_05"
+      },
+      {
+        "message_in": "4_(0-6)",
+        "module": "4_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 25,
+        "name": "4_01",
+        "type": "MODULE",
+        "RAM": 500
+      },
+      {
+        "id": 26,
+        "name": "4_02",
+        "type": "MODULE",
+        "RAM": 900
+      },
+      {
+        "id": 27,
+        "name": "4_03",
+        "type": "MODULE",
+        "RAM": 1000
+      },
+      {
+        "id": 28,
+        "name": "4_04",
+        "type": "MODULE",
+        "RAM": 3500
+      },
+      {
+        "id": 29,
+        "name": "4_05",
+        "type": "MODULE",
+        "RAM": 750
+      },
+      {
+        "id": 30,
+        "name": "4_06",
+        "type": "MODULE",
+        "RAM": 2200
+      }
+    ],
+    "message": [
+       {
+        "id": 24,
+        "name": "M.USER.APP.4",
+        "s": "None",
+        "d": "4_01",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 25,
+        "name": "4_(0-2)",
+        "s": "4_01",
+        "d": "4_02",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 26,
+        "name": "4_(0-3)",
+        "s": "4_02",
+        "d": "4_03",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 27,
+        "name": "4_(0-4)",
+        "s": "4_03",
+        "d": "4_04",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 28,
+        "name": "4_(0-5)",
+        "s": "4_04",
+        "d": "4_05",
+        "bytes": 23,
+        "instructions": 30
+      },
+      {
+        "id": 29,
+        "name": "4_(0-6)",
+        "s": "4_05",
+        "d": "4_06",
+        "bytes": 120,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": 5,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.5",
+        "message_out": "5_(0-2)",
+        "module": "5_01"
+      },
+      {
+        "message_in": "5_(0-2)",
+        "message_out": "5_(0-3)",
+        "module": "5_02"
+      },
+      {
+        "message_in": "5_(0-3)",
+        "message_out": "5_(0-4)",
+        "module": "5_03"
+      },
+      {
+        "message_in": "5_(0-4)",
+        "message_out": "5_(0-5)",
+        "module": "5_04"
+      },
+      {
+        "message_in": "5_(0-5)",
+        "message_out": "5_(0-6)",
+        "module": "5_05"
+      },
+      {
+        "message_in": "5_(0-6)",
+        "module": "5_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 31,
+        "name": "5_01",
+        "type": "MODULE",
+        "RAM": 200
+      },
+      {
+        "id": 32,
+        "name": "5_02",
+        "type": "MODULE",
+        "RAM": 200
+      },
+      {
+        "id": 33,
+        "name": "5_03",
+        "type": "MODULE",
+        "RAM": 1300
+      },
+      {
+        "id": 34,
+        "name": "5_04",
+        "type": "MODULE",
+        "RAM": 350
+      },
+      {
+        "id": 35,
+        "name": "5_05",
+        "type": "MODULE",
+        "RAM": 200
+      },
+      {
+        "id": 36,
+        "name": "5_06",
+        "type": "MODULE",
+        "RAM": 1200
+      }
+    ],
+    "message": [
+       {
+        "id": 30,
+        "name": "M.USER.APP.5",
+        "s": "None",
+        "d": "5_01",
+        "bytes": 12,
+        "instructions": 30
+      },
+      {
+        "id": 31,
+        "name": "5_(0-2)",
+        "s": "5_01",
+        "d": "5_02",
+        "bytes": 23,
+        "instructions": 30
+      },
+      {
+        "id": 32,
+        "name": "5_(0-3)",
+        "s": "5_02",
+        "d": "5_03",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 33,
+        "name": "5_(0-4)",
+        "s": "5_03",
+        "d": "5_04",
+        "bytes": 30,
+        "instructions": 30
+      },
+      {
+        "id": 34,
+        "name": "5_(0-5)",
+        "s": "5_04",
+        "d": "5_05",
+        "bytes": 10,
+        "instructions": 30
+      },
+      {
+        "id": 35,
+        "name": "5_(0-6)",
+        "s": "5_05",
+        "d": "5_06",
+        "bytes": 41,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": 6,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.6",
+        "message_out": "6_(0-2)",
+        "module": "6_01"
+      },
+      {
+        "message_in": "6_(0-2)",
+        "message_out": "6_(0-3)",
+        "module": "6_02"
+      },
+      {
+        "message_in": "6_(0-3)",
+        "message_out": "6_(0-4)",
+        "module": "6_03"
+      },
+      {
+        "message_in": "6_(0-4)",
+        "message_out": "6_(0-5)",
+        "module": "6_04"
+      },
+      {
+        "message_in": "6_(0-5)",
+        "message_out": "6_(0-6)",
+        "module": "6_05"
+      },
+      {
+        "message_in": "6_(0-6)",
+        "module": "6_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 37,
+        "name": "6_01",
+        "type": "MODULE",
+        "RAM": 100
+      },
+      {
+        "id": 38,
+        "name": "6_02",
+        "type": "MODULE",
+        "RAM": 340
+      },
+      {
+        "id": 39,
+        "name": "6_03",
+        "type": "MODULE",
+        "RAM": 3000
+      },
+      {
+        "id": 40,
+        "name": "6_04",
+        "type": "MODULE",
+        "RAM": 50
+      },
+      {
+        "id": 41,
+        "name": "6_05",
+        "type": "MODULE",
+        "RAM": 240
+      },
+      {
+        "id": 42,
+        "name": "6_06",
+        "type": "MODULE",
+        "RAM": 100
+      }
+    ],
+    "message": [
+       {
+        "id": 36,
+        "name": "M.USER.APP.6",
+        "s": "None",
+        "d": "6_01",
+        "bytes": 22,
+        "instructions": 30
+      },
+      {
+        "id": 37,
+        "name": "6_(0-2)",
+        "s": "6_01",
+        "d": "6_02",
+        "bytes": 10,
+        "instructions": 30
+      },
+      {
+        "id": 38,
+        "name": "6_(0-3)",
+        "s": "6_02",
+        "d": "6_03",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 39,
+        "name": "6_(0-4)",
+        "s": "6_03",
+        "d": "6_04",
+        "bytes": 300,
+        "instructions": 30
+      },
+      {
+        "id": 40,
+        "name": "6_(0-5)",
+        "s": "6_04",
+        "d": "6_05",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 41,
+        "name": "6_(0-6)",
+        "s": "6_05",
+        "d": "6_06",
+        "bytes": 25,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": 7,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.7",
+        "message_out": "7_(0-2)",
+        "module": "7_01"
+      },
+      {
+        "message_in": "7_(0-2)",
+        "message_out": "7_(0-3)",
+        "module": "7_02"
+      },
+      {
+        "message_in": "7_(0-3)",
+        "message_out": "7_(0-4)",
+        "module": "7_03"
+      },
+      {
+        "message_in": "7_(0-4)",
+        "message_out": "7_(0-5)",
+        "module": "7_04"
+      },
+      {
+        "message_in": "7_(0-5)",
+        "message_out": "7_(0-6)",
+        "module": "7_05"
+      },
+      {
+        "message_in": "7_(0-6)",
+        "module": "7_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 43,
+        "name": "7_01",
+        "type": "MODULE",
+        "RAM": 550
+      },
+      {
+        "id": 44,
+        "name": "7_02",
+        "type": "MODULE",
+        "RAM": 2040
+      },
+      {
+        "id": 45,
+        "name": "7_03",
+        "type": "MODULE",
+        "RAM": 300
+      },
+      {
+        "id": 46,
+        "name": "7_04",
+        "type": "MODULE",
+        "RAM": 510
+      },
+      {
+        "id": 47,
+        "name": "7_05",
+        "type": "MODULE",
+        "RAM": 640
+      },
+      {
+        "id": 48,
+        "name": "7_06",
+        "type": "MODULE",
+        "RAM": 1300
+      }
+    ],
+    "message": [
+       {
+        "id": 42,
+        "name": "M.USER.APP.7",
+        "s": "None",
+        "d": "7_01",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 43,
+        "name": "7_(0-2)",
+        "s": "7_01",
+        "d": "7_02",
+        "bytes": 100,
+        "instructions": 30
+      },
+      {
+        "id": 44,
+        "name": "7_(0-3)",
+        "s": "7_02",
+        "d": "7_03",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 45,
+        "name": "7_(0-4)",
+        "s": "7_03",
+        "d": "7_04",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 46,
+        "name": "7_(0-5)",
+        "s": "7_04",
+        "d": "7_05",
+        "bytes": 95,
+        "instructions": 30
+      },
+      {
+        "id": 47,
+        "name": "7_(0-6)",
+        "s": "7_05",
+        "d": "7_06",
+        "bytes": 55,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": 8,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.8",
+        "message_out": "8_(0-2)",
+        "module": "8_01"
+      },
+      {
+        "message_in": "8_(0-2)",
+        "message_out": "8_(0-3)",
+        "module": "8_02"
+      },
+      {
+        "message_in": "8_(0-3)",
+        "message_out": "8_(0-4)",
+        "module": "8_03"
+      },
+      {
+        "message_in": "8_(0-4)",
+        "message_out": "8_(0-5)",
+        "module": "8_04"
+      },
+      {
+        "message_in": "8_(0-5)",
+        "message_out": "8_(0-6)",
+        "module": "8_05"
+      },
+      {
+        "message_in": "8_(0-6)",
+        "module": "8_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 49,
+        "name": "8_01",
+        "type": "MODULE",
+        "RAM": 1050
+      },
+      {
+        "id": 50,
+        "name": "8_02",
+        "type": "MODULE",
+        "RAM": 140
+      },
+      {
+        "id": 51,
+        "name": "8_03",
+        "type": "MODULE",
+        "RAM": 660
+      },
+      {
+        "id": 52,
+        "name": "8_04",
+        "type": "MODULE",
+        "RAM": 1010
+      },
+      {
+        "id": 53,
+        "name": "8_05",
+        "type": "MODULE",
+        "RAM": 230
+      },
+      {
+        "id": 54,
+        "name": "8_06",
+        "type": "MODULE",
+        "RAM": 111
+      }
+    ],
+    "message": [
+       {
+        "id": 48,
+        "name": "M.USER.APP.8",
+        "s": "None",
+        "d": "8_01",
+        "bytes": 10,
+        "instructions": 30
+      },
+      {
+        "id": 49,
+        "name": "8_(0-2)",
+        "s": "8_01",
+        "d": "8_02",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 50,
+        "name": "8_(0-3)",
+        "s": "8_02",
+        "d": "8_03",
+        "bytes": 12,
+        "instructions": 30
+      },
+      {
+        "id": 51,
+        "name": "8_(0-4)",
+        "s": "8_03",
+        "d": "8_04",
+        "bytes": 35,
+        "instructions": 30
+      },
+      {
+        "id": 52,
+        "name": "8_(0-5)",
+        "s": "8_04",
+        "d": "8_05",
+        "bytes": 63,
+        "instructions": 30
+      },
+      {
+        "id": 53,
+        "name": "8_(0-6)",
+        "s": "8_05",
+        "d": "8_06",
+        "bytes": 100,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": 9,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.9",
+        "message_out": "9_(0-2)",
+        "module": "9_01"
+      },
+      {
+        "message_in": "9_(0-2)",
+        "message_out": "9_(0-3)",
+        "module": "9_02"
+      },
+      {
+        "message_in": "9_(0-3)",
+        "message_out": "9_(0-4)",
+        "module": "9_03"
+      },
+      {
+        "message_in": "9_(0-4)",
+        "message_out": "9_(0-5)",
+        "module": "9_04"
+      },
+      {
+        "message_in": "9_(0-5)",
+        "message_out": "9_(0-6)",
+        "module": "9_05"
+      },
+      {
+        "message_in": "9_(0-6)",
+        "module": "9_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 55,
+        "name": "9_01",
+        "type": "MODULE",
+        "RAM": 290
+      },
+      {
+        "id": 56,
+        "name": "9_02",
+        "type": "MODULE",
+        "RAM": 1040
+      },
+      {
+        "id": 57,
+        "name": "9_03",
+        "type": "MODULE",
+        "RAM": 160
+      },
+      {
+        "id": 58,
+        "name": "9_04",
+        "type": "MODULE",
+        "RAM": 2200
+      },
+      {
+        "id": 59,
+        "name": "9_05",
+        "type": "MODULE",
+        "RAM": 2000
+      },
+      {
+        "id": 60,
+        "name": "9_06",
+        "type": "MODULE",
+        "RAM": 522
+      }
+    ],
+    "message": [
+       {
+        "id": 54,
+        "name": "M.USER.APP.9",
+        "s": "None",
+        "d": "9_01",
+        "bytes": 22,
+        "instructions": 30
+      },
+      {
+        "id": 55,
+        "name": "9_(0-2)",
+        "s": "9_01",
+        "d": "9_02",
+        "bytes": 90,
+        "instructions": 30
+      },
+      {
+        "id": 56,
+        "name": "9_(0-3)",
+        "s": "9_02",
+        "d": "9_03",
+        "bytes": 53,
+        "instructions": 30
+      },
+      {
+        "id": 57,
+        "name": "9_(0-4)",
+        "s": "9_03",
+        "d": "9_04",
+        "bytes": 35,
+        "instructions": 30
+      },
+      {
+        "id": 58,
+        "name": "9_(0-5)",
+        "s": "9_04",
+        "d": "9_05",
+        "bytes": 13,
+        "instructions": 30
+      },
+      {
+        "id": 59,
+        "name": "9_(0-6)",
+        "s": "9_05",
+        "d": "9_06",
+        "bytes": 20,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": 10,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.10",
+        "message_out": "10_(0-2)",
+        "module": "10_01"
+      },
+      {
+        "message_in": "10_(0-2)",
+        "message_out": "10_(0-3)",
+        "module": "10_02"
+      },
+      {
+        "message_in": "10_(0-3)",
+        "message_out": "10_(0-4)",
+        "module": "10_03"
+      },
+      {
+        "message_in": "10_(0-4)",
+        "message_out": "10_(0-5)",
+        "module": "10_04"
+      },
+      {
+        "message_in": "10_(0-5)",
+        "message_out": "10_(0-6)",
+        "module": "10_05"
+      },
+      {
+        "message_in": "10_(0-6)",
+        "module": "10_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 61,
+        "name": "10_01",
+        "type": "MODULE",
+        "RAM": 900
+      },
+      {
+        "id": 62,
+        "name": "10_02",
+        "type": "MODULE",
+        "RAM": 400
+      },
+      {
+        "id": 63,
+        "name": "10_03",
+        "type": "MODULE",
+        "RAM": 1600
+      },
+      {
+        "id": 64,
+        "name": "10_04",
+        "type": "MODULE",
+        "RAM": 720
+      },
+      {
+        "id": 65,
+        "name": "10_05",
+        "type": "MODULE",
+        "RAM": 1220
+      },
+      {
+        "id": 66,
+        "name": "10_06",
+        "type": "MODULE",
+        "RAM": 450
+      }
+    ],
+    "message": [
+       {
+        "id": 60,
+        "name": "M.USER.APP.10",
+        "s": "None",
+        "d": "10_01",
+        "bytes": 58,
+        "instructions": 30
+      },
+      {
+        "id": 61,
+        "name": "10_(0-2)",
+        "s": "10_01",
+        "d": "10_02",
+        "bytes": 23,
+        "instructions": 30
+      },
+      {
+        "id": 62,
+        "name": "10_(0-3)",
+        "s": "10_02",
+        "d": "10_03",
+        "bytes": 300,
+        "instructions": 30
+      },
+      {
+        "id": 63,
+        "name": "10_(0-4)",
+        "s": "10_03",
+        "d": "10_04",
+        "bytes": 65,
+        "instructions": 30
+      },
+      {
+        "id": 64,
+        "name": "10_(0-5)",
+        "s": "10_04",
+        "d": "10_05",
+        "bytes": 20,
+        "instructions": 30
+      },
+      {
+        "id": 65,
+        "name": "10_(0-6)",
+        "s": "10_05",
+        "d": "10_06",
+        "bytes": 15,
+        "instructions": 30
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": 11,
+    "HwReqs": 1,
+    "MaxReqs": 200,
+    "MaxLatency": 50,
+
+
+    "transmission": [
+      {
+        "message_in": "M.USER.APP.11",
+        "message_out": "11_(0-2)",
+        "module": "11_01"
+      },
+      {
+        "message_in": "11_(0-2)",
+        "message_out": "11_(0-3)",
+        "module": "11_02"
+      },
+      {
+        "message_in": "11_(0-3)",
+        "message_out": "11_(0-4)",
+        "module": "11_03"
+      },
+      {
+        "message_in": "11_(0-4)",
+        "message_out": "11_(0-5)",
+        "module": "11_04"
+      },
+      {
+        "message_in": "11_(0-5)",
+        "message_out": "11_(0-6)",
+        "module": "11_05"
+      },
+      {
+        "message_in": "11_(0-6)",
+        "module": "11_06"
+      }
+    ],
+    "module": [
+      {
+        "id": 67,
+        "name": "11_01",
+        "type": "MODULE",
+        "RAM": 555
+      },
+      {
+        "id": 68,
+        "name": "11_02",
+        "type": "MODULE",
+        "RAM": 1100
+      },
+      {
+        "id": 69,
+        "name": "11_03",
+        "type": "MODULE",
+        "RAM": 100
+      },
+      {
+        "id": 70,
+        "name": "11_04",
+        "type": "MODULE",
+        "RAM": 2000
+      },
+      {
+        "id": 71,
+        "name": "11_05",
+        "type": "MODULE",
+        "RAM": 120
+      },
+      {
+        "id": 72,
+        "name": "11_06",
+        "type": "MODULE",
+        "RAM": 1000
+      }
+    ],
+    "message": [
+       {
+        "id": 66,
+        "name": "M.USER.APP.11",
+        "s": "None",
+        "d": "11_01",
+        "bytes": 50,
+        "instructions": 30
+      },
+      {
+        "id": 67,
+        "name": "11_(0-2)",
+        "s": "11_01",
+        "d": "11_02",
+        "bytes": 15,
+        "instructions": 30
+      },
+      {
+        "id": 68,
+        "name": "11_(0-3)",
+        "s": "11_02",
+        "d": "11_03",
+        "bytes": 300,
+        "instructions": 30
+      },
+      {
+        "id": 69,
+        "name": "11_(0-4)",
+        "s": "11_03",
+        "d": "11_04",
+        "bytes": 205,
+        "instructions": 30
+      },
+      {
+        "id": 70,
+        "name": "11_(0-5)",
+        "s": "11_04",
+        "d": "11_05",
+        "bytes": 56,
+        "instructions": 30
+      },
+      {
+        "id": 71,
+        "name": "11_(0-6)",
+        "s": "11_05",
+        "d": "11_06",
+        "bytes": 150,
+        "instructions": 30
+      }
+    ]
+  }
+]

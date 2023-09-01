@@ -1,0 +1,1209 @@
+Start dynamic Scheduling of different rate of message generation 
+initial placement: [[83, 83, 27, 27, 8, 8], [50, 50, 50, 50, 50, 50], [59, 59, 59, 59, 19, 19], [51, 16, 16, 16, 16, 16], [46, 46, 46, 1, 1, 1], [97, 97, 97, 97, 97, 97]]
+ 
+**************************lambda rate is************************** 115
+---------Iteration Time 1---------
+initial plan average measured latency: 271.8232413859378
+initial plan average estimated latency: 248.00015118650794
+current plan's average static latency: 248.00015118650794
+current plan's average measured latency: 271.8232413859378
+current plan's measued latency in each workflow {'M.USER.APP.0': 59.00003010256408, 'M.USER.APP.1': 39.10258248575496, 'M.USER.APP.2': 52.923116983618186, 'M.USER.APP.3': 21.176957393162372, 'M.USER.APP.4': 50.77438669373218, 'M.USER.APP.5': 48.846167727106035}
+shift_time: src  dst
+0    1      5.410260e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      4.243591e+00
+     4      0.000000e+00
+     5      1.923079e-01
+     6      0.000000e+00
+2    0      3.589747e-01
+     8      0.000000e+00
+3    0      6.666670e-01
+     10     0.000000e+00
+4    1      1.282057e-01
+     15     5.128202e-01
+5    1      1.538467e-01
+     16     8.602563e-01
+6    1      3.589746e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     1.025642e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.977208e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     1.538461e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.139601e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[4, 0, 0, 0, 0, 0], [30, 30, 30, 30, 30, 30], [25, 25, 25, 25, 25, 25], [40, 40, 40, 40, 40, 40], [87, 87, 87, 87, 28, 28], [6, 6, 6, 6, 6, 6]]
+planning_average_latency: 83.00117873015874
+current_average_latency: 264.26594972984515
+effective_average_latency: 89.51625799051928
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[4, 0, 0, 0, 0, 0], [30, 30, 30, 30, 30, 30], [25, 25, 25, 25, 25, 25], [40, 40, 40, 40, 40, 40], [87, 87, 87, 87, 28, 28], [6, 6, 6, 6, 6, 6]]
+---------Iteration Time 2---------
+current plan's average static latency: 83.00014384126985
+current plan's average measured latency: 96.72578843121707
+current plan's measued latency in each workflow {'M.USER.APP.0': 25.54616705128202, 'M.USER.APP.1': 2.0000405128205117, 'M.USER.APP.2': 29.051301660561684, 'M.USER.APP.3': 6.153861666666655, 'M.USER.APP.4': 33.9744175398862}
+shift_time: src  dst
+0    2      1.179488e+00
+1    0      5.119230e+00
+     4      1.538467e-01
+2    8      0.000000e+00
+     9      2.564103e-07
+3    0      6.666670e-01
+4    1      2.564103e-07
+     13     1.538467e-01
+5    1      1.538467e-01
+8    25     2.380952e-07
+9    28     0.000000e+00
+     30     0.000000e+00
+13   40     0.000000e+00
+28   87     0.000000e+00
+87   28     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[23, 23, 7, 7, 7, 2], [9, 9, 9, 9, 9, 9], [111, 111, 111, 111, 36, 36], [24, 24, 24, 24, 24, 24], [88, 88, 88, 88, 88, 29], [9, 9, 9, 9, 9, 0]]
+planning_average_latency: 146.00192933333335
+current_average_latency: 93.91856574624072
+effective_average_latency: 159.8340123355746
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 137.49756634
+---------Iteration Time 1---------
+current plan's average static latency: 248.0001511865079
+current plan's average measured latency: 268.9941026966087
+current plan's measued latency in each workflow {'M.USER.APP.0': 58.54548408754207, 'M.USER.APP.1': 37.96971457912457, 'M.USER.APP.2': 52.36367568602689, 'M.USER.APP.3': 21.297004814814823, 'M.USER.APP.4': 50.636391964646464, 'M.USER.APP.5': 48.1818315644539}
+shift_time: src  dst
+0    1      4.954548e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      3.727274e+00
+     4      0.000000e+00
+     5      1.212125e-01
+     6      0.000000e+00
+2    0      2.727276e-01
+     8      0.000000e+00
+3    0      5.454548e-01
+     10     0.000000e+00
+4    1      8.787979e-02
+     15     4.242423e-01
+5    1      1.212124e-01
+     16     7.424243e-01
+6    1      2.727275e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     9.090907e-02
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.070707e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     9.090909e-08
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.010101e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[6, 6, 0, 0, 0, 0], [14, 14, 14, 14, 14, 14], [20, 20, 20, 20, 20, 20], [23, 23, 23, 23, 23, 23], [56, 56, 5, 5, 0, 0], [62, 62, 62, 62, 62, 62]]
+planning_average_latency: 139.00129022222222
+current_average_latency: 269.3689136049105
+effective_average_latency: 148.9072869194545
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[6, 6, 0, 0, 0, 0], [14, 14, 14, 14, 14, 14], [20, 20, 20, 20, 20, 20], [23, 23, 23, 23, 23, 23], [56, 56, 5, 5, 0, 0], [62, 62, 62, 62, 62, 62]]
+---------Iteration Time 2---------
+current plan's average static latency: 139.00015874999997
+current plan's average measured latency: 167.36380630808048
+current plan's measued latency in each workflow {'M.USER.APP.0': 27.442443015151277, 'M.USER.APP.1': 24.36365526936028, 'M.USER.APP.2': 33.87883238383835, 'M.USER.APP.3': 31.58790682323233, 'M.USER.APP.4': 46.030344021885455, 'M.USER.APP.5': 4.060624794612792}
+shift_time: src  dst
+0    1      4.954548e+00
+     2      0.000000e+00
+1    0      5.373738e+00
+     4      0.000000e+00
+     6      3.787877e-01
+2    0      2.727276e-01
+     7      0.000000e+00
+3    0      5.454548e-01
+4    1      1.212124e-01
+     14     0.000000e+00
+5    1      0.000000e+00
+     18     1.212124e-01
+6    1      1.515151e-07
+     20     1.515291e-02
+7    23     0.000000e+00
+18   5      0.000000e+00
+     56     4.242423e-01
+20   62     6.060594e-02
+56   18     8.080808e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[44, 44, 4, 0, 0, 0], [5, 5, 5, 5, 5, 5], [87, 87, 87, 87, 87, 87], [81, 81, 81, 81, 81, 81], [28, 28, 28, 9, 9, 2], [63, 63, 63, 63, 63, 63]]
+planning_average_latency: 163.00223847619048
+current_average_latency: 168.0501702595483
+effective_average_latency: 178.34568574516592
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 149.46827136
+---------Iteration Time 1---------
+current plan's average static latency: 248.0001511865079
+current plan's average measured latency: 268.2907846396327
+current plan's measued latency in each workflow {'M.USER.APP.0': 58.3437795972222, 'M.USER.APP.1': 37.875017343749995, 'M.USER.APP.2': 52.18753937499996, 'M.USER.APP.3': 21.093783116319443, 'M.USER.APP.4': 50.75940178472219, 'M.USER.APP.5': 48.031263422618885}
+shift_time: src  dst
+0    1      4.796878e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      3.562501e+00
+     4      0.000000e+00
+     5      9.375032e-02
+     6      0.000000e+00
+2    0      2.500003e-01
+     8      0.000000e+00
+3    0      5.312503e-01
+     10     0.000000e+00
+4    1      1.140619e-01
+     15     4.374999e-01
+5    1      9.375031e-02
+     16     7.499999e-01
+6    1      2.500002e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     9.374998e-02
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.291667e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     9.375000e-08
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.041667e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[89, 89, 9, 9, 2, 2], [69, 69, 69, 69, 69, 69], [23, 23, 23, 23, 23, 23], [31, 31, 31, 31, 31, 31], [117, 117, 117, 117, 12, 12], [40, 40, 40, 40, 40, 40]]
+planning_average_latency: 175.001798
+current_average_latency: 268.6549985431385
+effective_average_latency: 190.38086540904823
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[89, 89, 9, 9, 2, 2], [69, 69, 69, 69, 69, 69], [23, 23, 23, 23, 23, 23], [31, 31, 31, 31, 31, 31], [117, 117, 117, 117, 12, 12], [40, 40, 40, 40, 40, 40]]
+---------Iteration Time 2---------
+current plan's average static latency: 175.00029037499993
+current plan's average measured latency: 218.37530587499973
+current plan's measued latency in each workflow {'M.USER.APP.0': 32.406442760416596, 'M.USER.APP.1': 23.687508750000006, 'M.USER.APP.2': 29.218775468750014, 'M.USER.APP.3': 51.40626672222213, 'M.USER.APP.4': 65.40629798611099, 'M.USER.APP.5': 16.25001418750001}
+shift_time: src  dst
+0    2       2.500001
+     3       0.000000
+1    0      12.114587
+     4       0.000000
+2    7       0.390625
+     9       0.000000
+3    0       0.531250
+     10      0.000000
+     12      0.000000
+4    1       0.093750
+     13      0.000000
+5    1       0.093750
+6    1       0.250000
+7    22      0.281250
+     23      0.000000
+9    2       0.000000
+     29      0.000000
+10   31      0.000000
+12   38      0.000000
+13   40      0.000000
+22   69      0.000000
+29   9       0.000000
+     89      0.000000
+38   12      0.000000
+     117     0.000000
+89   29      0.000000
+117  38      0.000000
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[3, 3, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2], [33, 33, 33, 33, 33, 33], [100, 10, 10, 10, 10, 10], [75, 75, 75, 24, 24, 24], [23, 23, 23, 23, 23, 23]]
+planning_average_latency: 153.00074822222223
+current_average_latency: 218.96804834632593
+effective_average_latency: 167.67623223487655
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[3, 3, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2], [33, 33, 33, 33, 33, 33], [100, 10, 10, 10, 10, 10], [75, 75, 75, 24, 24, 24], [23, 23, 23, 23, 23, 23]]
+---------Iteration Time 3---------
+current plan's average static latency: 153.00009352777778
+current plan's average measured latency: 250.50012858680498
+current plan's measued latency in each workflow {'M.USER.APP.0': 39.25001569444438, 'M.USER.APP.2': 12.468761888020826, 'M.USER.APP.3': 63.937540823784616, 'M.USER.APP.4': 68.78128572222207, 'M.USER.APP.5': 66.06252445833307}
+shift_time: src  dst
+0    2      0.000000e+00
+     3      0.000000e+00
+1    0      2.410938e+01
+2    7      0.000000e+00
+3    0      6.944444e-08
+     10     3.125003e-01
+4    1      9.375031e-02
+5    1      9.375031e-02
+6    1      2.500002e-01
+7    23     0.000000e+00
+     24     0.000000e+00
+10   33     0.000000e+00
+24   75     0.000000e+00
+33   10     0.000000e+00
+     100    0.000000e+00
+75   24     0.000000e+00
+100  33     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[2, 0, 0, 0, 0, 0], [35, 35, 35, 35, 35, 35], [99, 99, 32, 32, 32, 32], [88, 88, 88, 88, 88, 88], [63, 63, 63, 20, 6, 6], [5, 5, 5, 5, 5, 5]]
+planning_average_latency: 128.002596
+current_average_latency: 252.35496838440804
+effective_average_latency: 139.36543629931236
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[2, 0, 0, 0, 0, 0], [35, 35, 35, 35, 35, 35], [99, 99, 32, 32, 32, 32], [88, 88, 88, 88, 88, 88], [63, 63, 63, 20, 6, 6], [5, 5, 5, 5, 5, 5]]
+---------Iteration Time 4---------
+current plan's average static latency: 128.00017624999995
+current plan's average measured latency: 139.62830231770815
+current plan's measued latency in each workflow {'M.USER.APP.0': 23.065636597222156, 'M.USER.APP.1': 27.687517940972224, 'M.USER.APP.2': 19.437525351562492, 'M.USER.APP.3': 30.750059305555485, 'M.USER.APP.4': 28.437557934895814, 'M.USER.APP.5': 10.250005187500001}
+shift_time: src  dst
+0    2      0.000000e+00
+     3      1.874999e-01
+1    0      4.640625e+00
+     5      0.000000e+00
+     6      1.562500e-01
+2    0      4.390626e-01
+     9      0.000000e+00
+3    10     4.375004e-01
+     11     0.000000e+00
+4    1      9.375031e-02
+5    1      9.375031e-02
+6    1      2.500002e-01
+     20     0.000000e+00
+9    29     0.000000e+00
+10   32     0.000000e+00
+11   35     6.249999e-02
+20   6      0.000000e+00
+     63     1.874999e-01
+29   88     0.000000e+00
+32   99     0.000000e+00
+63   20     1.171875e-07
+99   32     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[88, 88, 9, 9, 2, 2], [90, 90, 90, 90, 90, 90], [36, 36, 36, 36, 36, 36], [57, 57, 57, 57, 57, 57], [87, 87, 87, 87, 28, 28], [5, 5, 5, 5, 5, 5]]
+planning_average_latency: 97.00222666666667
+current_average_latency: 139.84211292562708
+effective_average_latency: 103.91661461412305
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[88, 88, 9, 9, 2, 2], [90, 90, 90, 90, 90, 90], [36, 36, 36, 36, 36, 36], [57, 57, 57, 57, 57, 57], [87, 87, 87, 87, 28, 28], [5, 5, 5, 5, 5, 5]]
+ 
+**************************lambda rate is************************** 145.31088913
+---------Iteration Time 1---------
+current plan's average static latency: 248.0001511865079
+current plan's average measured latency: 268.6032846396327
+current plan's measued latency in each workflow {'M.USER.APP.0': 58.4375295972222, 'M.USER.APP.1': 37.937517343749995, 'M.USER.APP.2': 52.28128937499996, 'M.USER.APP.3': 21.156283116319443, 'M.USER.APP.4': 50.66565178472219, 'M.USER.APP.5': 48.125013422618885}
+shift_time: src  dst
+0    1      4.890628e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      3.656251e+00
+     4      0.000000e+00
+     5      1.093753e-01
+     6      0.000000e+00
+2    0      2.500003e-01
+     8      0.000000e+00
+3    0      5.312503e-01
+     10     0.000000e+00
+4    1      6.718688e-02
+     15     4.374999e-01
+5    1      9.375031e-02
+     16     7.499999e-01
+6    1      2.500002e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     9.374998e-02
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.291667e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     9.375000e-08
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.041667e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[55, 5, 0, 0, 0, 0], [118, 118, 118, 118, 118, 118], [89, 89, 89, 89, 89, 89], [4, 0, 0, 0, 0, 0], [114, 114, 114, 114, 12, 12], [49, 49, 49, 49, 49, 49]]
+planning_average_latency: 170.00151644444443
+current_average_latency: 268.97757918829984
+effective_average_latency: 187.80168858723553
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[55, 5, 0, 0, 0, 0], [118, 118, 118, 118, 118, 118], [89, 89, 89, 89, 89, 89], [4, 0, 0, 0, 0, 0], [114, 114, 114, 114, 12, 12], [49, 49, 49, 49, 49, 49]]
+---------Iteration Time 2---------
+current plan's average static latency: 170.00018605555556
+current plan's average measured latency: 201.1689395850692
+current plan's measued latency in each workflow {'M.USER.APP.0': 45.57502902777769, 'M.USER.APP.1': 39.53126781597218, 'M.USER.APP.2': 21.53132614583333, 'M.USER.APP.3': 25.62501359374987, 'M.USER.APP.4': 48.03128917361115, 'M.USER.APP.5': 20.875013828125006}
+shift_time: src  dst
+0    2      0.000000e+00
+     3      1.865624e+00
+1    0      8.360417e+00
+     5      1.718758e-01
+2    0      2.500003e-01
+     9      0.000000e+00
+3    0      5.312503e-01
+     12     0.000000e+00
+4    1      9.375031e-02
+5    1      1.312501e-01
+     16     3.749999e-01
+     18     0.000000e+00
+6    1      2.500002e-01
+9    29     0.000000e+00
+12   37     0.000000e+00
+     39     9.374998e-02
+16   49     0.000000e+00
+18   5      0.000000e+00
+     55     1.562500e-01
+29   89     0.000000e+00
+37   12     0.000000e+00
+     114    0.000000e+00
+39   118    0.000000e+00
+55   18     1.562500e-07
+114  37     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[9, 9, 0, 0, 0, 0], [35, 35, 35, 35, 35, 35], [108, 108, 108, 108, 108, 108], [54, 54, 54, 54, 54, 54], [23, 23, 23, 7, 7, 7], [5, 5, 5, 5, 5, 5]]
+planning_average_latency: 130.0012377777778
+current_average_latency: 201.82922193906785
+effective_average_latency: 139.82710942655527
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[9, 9, 0, 0, 0, 0], [35, 35, 35, 35, 35, 35], [108, 108, 108, 108, 108, 108], [54, 54, 54, 54, 54, 54], [23, 23, 23, 7, 7, 7], [5, 5, 5, 5, 5, 5]]
+---------Iteration Time 3---------
+current plan's average static latency: 130.0001547222222
+current plan's average measured latency: 148.4314141701387
+current plan's measued latency in each workflow {'M.USER.APP.0': 25.100057013888804, 'M.USER.APP.1': 30.800021739583396, 'M.USER.APP.2': 17.718776597222256, 'M.USER.APP.3': 23.53126576388889, 'M.USER.APP.4': 38.84377930555547, 'M.USER.APP.5': 12.43751374999988}
+shift_time: src  dst
+0    2      0.000000
+     3      0.281250
+1    0      4.734375
+     5      1.265629
+2    0      0.365625
+     7      0.000000
+     9      0.000000
+3    11     0.053125
+4    1      0.093750
+5    1      0.093750
+     17     0.000000
+6    1      0.250000
+7    23     0.000000
+9    2      0.000000
+11   35     2.390626
+17   54     0.093749
+23   7      0.000000
+35   108    0.000000
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[93, 93, 9, 9, 2, 2], [4, 4, 4, 4, 4, 4], [33, 33, 33, 33, 33, 33], [88, 88, 88, 88, 88, 88], [42, 42, 42, 0, 0, 0], [91, 91, 91, 30, 30, 30]]
+planning_average_latency: 141.002518
+current_average_latency: 148.80016430645145
+effective_average_latency: 150.9330458401913
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 126.97070502
+---------Iteration Time 1---------
+current plan's average static latency: 248.00015118650788
+current plan's average measured latency: 269.35016450286565
+current plan's measued latency in each workflow {'M.USER.APP.0': 58.61114050617282, 'M.USER.APP.1': 38.188908016975304, 'M.USER.APP.2': 52.36115029320982, 'M.USER.APP.3': 21.408368981481498, 'M.USER.APP.4': 50.669472317901224, 'M.USER.APP.5': 48.11112438712504}
+shift_time: src  dst
+0    1      4.986113e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      3.736112e+00
+     4      0.000000e+00
+     5      1.666670e-01
+     6      0.000000e+00
+2    0      2.500003e-01
+     8      0.000000e+00
+3    0      5.000003e-01
+     10     0.000000e+00
+4    1      2.472233e-01
+     15     3.888888e-01
+5    1      1.111114e-01
+     16     7.472231e-01
+6    1      2.500002e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     8.333331e-02
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      6.481481e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     8.333333e-08
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     9.259260e-08
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[5, 5, 0, 0, 0, 0], [22, 22, 22, 22, 22, 22], [32, 32, 32, 32, 10, 10], [12, 12, 12, 12, 12, 12], [60, 60, 60, 19, 6, 6], [120, 120, 120, 120, 120, 120]]
+planning_average_latency: 136.00181160000002
+current_average_latency: 269.36302083730135
+effective_average_latency: 147.83175651272703
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[5, 5, 0, 0, 0, 0], [22, 22, 22, 22, 22, 22], [32, 32, 32, 32, 10, 10], [12, 12, 12, 12, 12, 12], [60, 60, 60, 19, 6, 6], [120, 120, 120, 120, 120, 120]]
+---------Iteration Time 2---------
+current plan's average static latency: 136.00014053333337
+current plan's average measured latency: 179.63905081651208
+current plan's measued latency in each workflow {'M.USER.APP.0': 38.73335154320978, 'M.USER.APP.1': 15.500005740740736, 'M.USER.APP.2': 14.416714062500002, 'M.USER.APP.3': 31.833355382716068, 'M.USER.APP.4': 22.32226683796297, 'M.USER.APP.5': 56.83335724938252}
+shift_time: src  dst
+0    3      4.444444e-07
+1    0      1.382223e+01
+     5      1.111114e-01
+     6      1.111110e-01
+2    7      2.500003e-01
+3    10     4.166670e-01
+     12     0.000000e+00
+4    1      1.111114e-01
+5    1      3.361119e-01
+6    1      2.500002e-01
+     19     0.000000e+00
+7    22     2.499999e-01
+10   32     0.000000e+00
+12   39     0.000000e+00
+19   6      0.000000e+00
+     60     0.000000e+00
+32   10     0.000000e+00
+39   120    0.000000e+00
+60   19     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[40, 40, 4, 0, 0, 0], [10, 10, 10, 10, 10, 10], [7, 7, 7, 7, 7, 7], [20, 20, 20, 20, 20, 20], [77, 25, 25, 25, 2, 2], [61, 61, 61, 61, 61, 61]]
+planning_average_latency: 152.0013711746032
+current_average_latency: 180.30301961984102
+effective_average_latency: 168.19506523058524
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[40, 40, 4, 0, 0, 0], [10, 10, 10, 10, 10, 10], [7, 7, 7, 7, 7, 7], [20, 20, 20, 20, 20, 20], [77, 25, 25, 25, 2, 2], [61, 61, 61, 61, 61, 61]]
+---------Iteration Time 3---------
+current plan's average static latency: 152.00014756349205
+current plan's average measured latency: 160.03626477182547
+current plan's measued latency in each workflow {'M.USER.APP.0': 31.250043364197477, 'M.USER.APP.1': 23.50000824074074, 'M.USER.APP.2': 21.913904922839507, 'M.USER.APP.3': 11.327809166666666, 'M.USER.APP.4': 62.62781721164034, 'M.USER.APP.5': 9.416681865740749}
+shift_time: src  dst
+0    2      1.262502e+00
+     3      2.499999e-01
+1    0      1.727777e+00
+     4      1.111114e-01
+     6      1.388889e-01
+2    0      2.500003e-01
+     7      0.000000e+00
+     8      0.000000e+00
+3    0      5.000003e-01
+     10     0.000000e+00
+4    1      1.388894e-01
+     13     0.000000e+00
+5    1      1.111114e-01
+6    20     5.601852e-07
+8    2      0.000000e+00
+     25     0.000000e+00
+13   4      1.388889e-07
+     40     0.000000e+00
+20   61     4.166672e-01
+25   8      0.000000e+00
+     77     0.000000e+00
+40   13     0.000000e+00
+77   25     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[72, 23, 23, 7, 7, 7], [11, 11, 11, 11, 11, 11], [32, 32, 32, 32, 10, 10], [53, 53, 17, 17, 17, 17], [60, 60, 60, 19, 6, 6], [49, 49, 49, 49, 49, 49]]
+planning_average_latency: 132.00239222222223
+current_average_latency: 159.8372964569162
+effective_average_latency: 144.66474136549746
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[72, 23, 23, 7, 7, 7], [11, 11, 11, 11, 11, 11], [32, 32, 32, 32, 10, 10], [53, 53, 17, 17, 17, 17], [60, 60, 60, 19, 6, 6], [49, 49, 49, 49, 49, 49]]
+---------Iteration Time 4---------
+current plan's average static latency: 132.00021586111112
+current plan's average measured latency: 136.50022615509246
+current plan's measued latency in each workflow {'M.USER.APP.0': 29.500075740740733, 'M.USER.APP.1': 17.50001574074074, 'M.USER.APP.2': 14.416714062500002, 'M.USER.APP.3': 30.416688416666673, 'M.USER.APP.4': 22.250044361111122, 'M.USER.APP.5': 22.416687833333192}
+shift_time: src  dst
+0    2      0.000000
+     3      0.250000
+1    0      0.500000
+     5      1.236116
+     6      0.138889
+2    0      0.250000
+     7      0.000000
+3    10     0.416667
+     11     0.000000
+4    1      0.111111
+5    1      0.111111
+     16     0.000000
+     17     0.000000
+6    1      0.250000
+     19     0.000000
+7    23     0.000000
+10   32     0.000000
+16   49     0.000000
+17   53     0.000000
+19   6      0.000000
+     60     0.000000
+23   7      0.000000
+     72     0.000000
+32   10     0.000000
+53   17     0.000000
+60   19     0.000000
+72   23     0.000000
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[60, 19, 6, 6, 0, 0], [95, 95, 95, 95, 95, 95], [25, 25, 25, 25, 25, 25], [42, 42, 42, 42, 42, 42], [2, 2, 2, 0, 0, 0], [5, 5, 5, 5, 5, 5]]
+planning_average_latency: 145.0008791746032
+current_average_latency: 136.57165479206336
+effective_average_latency: 159.82888364296284
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 103.02929498
+---------Iteration Time 1---------
+current plan's average static latency: 248.00015118650794
+current plan's average measured latency: 274.00766308650765
+current plan's measued latency in each workflow {'M.USER.APP.0': 59.50003004444443, 'M.USER.APP.1': 39.5750182222222, 'M.USER.APP.2': 53.400039999999954, 'M.USER.APP.3': 21.250033569444426, 'M.USER.APP.4': 50.982527413888896, 'M.USER.APP.5': 49.300013836507745}
+shift_time: src  dst
+0    1      5.850003e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      4.700002e+00
+     4      0.000000e+00
+     5      1.625003e-01
+     6      0.000000e+00
+2    0      4.000003e-01
+     8      0.000000e+00
+3    0      7.000006e-01
+     10     0.000000e+00
+4    1      1.537496e-01
+     15     4.999999e-01
+5    1      2.000005e-01
+     16     9.500001e-01
+6    1      4.000002e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     1.750000e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.777778e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     2.000000e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.111111e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[85, 85, 28, 9, 9, 9], [66, 66, 66, 66, 66, 66], [3, 3, 3, 3, 3, 3], [58, 58, 58, 58, 58, 58], [36, 36, 36, 36, 11, 0], [105, 105, 105, 105, 105, 105]]
+planning_average_latency: 174.0015037714286
+current_average_latency: 274.44375307254757
+effective_average_latency: 187.50758804937863
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[85, 85, 28, 9, 9, 9], [66, 66, 66, 66, 66, 66], [3, 3, 3, 3, 3, 3], [58, 58, 58, 58, 58, 58], [36, 36, 36, 36, 11, 0], [105, 105, 105, 105, 105, 105]]
+---------Iteration Time 2---------
+current plan's average static latency: 174.00019902698412
+current plan's average measured latency: 225.27522080238072
+current plan's measued latency in each workflow {'M.USER.APP.0': 42.6750561222222, 'M.USER.APP.1': 35.975019927777865, 'M.USER.APP.3': 21.875017182539725, 'M.USER.APP.4': 63.37510331111105, 'M.USER.APP.5': 61.37502425872988}
+shift_time: src  dst
+0    1      3.000001e-01
+     2      0.000000e+00
+     3      4.444444e-07
+1    0      1.594167e+01
+     6      6.875012e-01
+2    0      4.000003e-01
+     9      0.000000e+00
+3    0      0.000000e+00
+     11     0.000000e+00
+4    1      2.000005e-01
+5    1      2.000005e-01
+6    1      4.000002e-01
+     19     0.000000e+00
+     21     5.000002e-01
+9    28     0.000000e+00
+11   3      0.000000e+00
+     34     0.000000e+00
+     36     0.000000e+00
+19   58     7.499996e-02
+21   66     0.000000e+00
+28   9      0.000000e+00
+     85     0.000000e+00
+34   105    0.000000e+00
+36   11     0.000000e+00
+85   28     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[5, 5, 0, 0, 0, 0], [72, 72, 72, 72, 72, 72], [105, 105, 105, 105, 3, 3], [12, 12, 12, 12, 12, 12], [63, 63, 63, 20, 6, 6], [40, 40, 40, 40, 40, 40]]
+planning_average_latency: 124.00390936507937
+current_average_latency: 226.15406750032537
+effective_average_latency: 134.75482370567593
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[5, 5, 0, 0, 0, 0], [72, 72, 72, 72, 72, 72], [105, 105, 105, 105, 3, 3], [12, 12, 12, 12, 12, 12], [63, 63, 63, 20, 6, 6], [40, 40, 40, 40, 40, 40]]
+---------Iteration Time 3---------
+current plan's average static latency: 124.00024309920633
+current plan's average measured latency: 137.10024476944434
+current plan's measued latency in each workflow {'M.USER.APP.0': 25.70001313888879, 'M.USER.APP.1': 10.40003033333334, 'M.USER.APP.2': 28.500111000000004, 'M.USER.APP.3': 27.50001813888889, 'M.USER.APP.4': 28.60005795833331, 'M.USER.APP.5': 16.400014200000008}
+shift_time: src  dst
+0    3      0.000000e+00
+1    0      5.059999e+00
+     4      0.000000e+00
+     5      2.000005e-01
+     6      1.999998e-01
+2    7      4.000003e-01
+3    11     5.000113e-02
+     12     0.000000e+00
+4    1      2.000005e-01
+     13     0.000000e+00
+5    1      4.400009e-01
+6    1      4.000002e-01
+     20     0.000000e+00
+7    23     0.000000e+00
+11   3      0.000000e+00
+     34     4.499993e-01
+13   40     0.000000e+00
+20   6      0.000000e+00
+     63     1.999999e-01
+23   72     0.000000e+00
+34   11     1.000000e-06
+     105    0.000000e+00
+63   20     1.250000e-07
+105  34     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[86, 28, 9, 9, 2, 2], [39, 39, 39, 39, 39, 39], [36, 36, 36, 36, 36, 36], [60, 19, 19, 19, 19, 19], [4, 4, 4, 0, 0, 0], [81, 81, 81, 81, 81, 81]]
+planning_average_latency: 151.0015008888889
+current_average_latency: 137.32332187067553
+effective_average_latency: 163.78141688404696
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 84.68911087
+---------Iteration Time 1---------
+current plan's average static latency: 247.52956245463741
+current plan's average measured latency: 279.831543104964
+current plan's measued latency in each workflow {'M.USER.APP.0': 60.60787386492375, 'M.USER.APP.1': 41.019628240740715, 'M.USER.APP.2': 54.50984534586052, 'M.USER.APP.3': 21.99807502069716, 'M.USER.APP.4': 51.28434105991282, 'M.USER.APP.5': 50.41177957282898}
+shift_time: src  dst
+0    1      7.009808e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      5.950983e+00
+     4      0.000000e+00
+     5      2.362752e-01
+     6      0.000000e+00
+2    0      4.313729e-01
+     8      0.000000e+00
+3    0      8.823538e-01
+     10     0.000000e+00
+4    1      2.186277e-01
+     15     6.470589e-01
+5    1      2.352946e-01
+     16     1.294118e+00
+6    1      4.313727e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     2.549019e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      6.222222e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     2.549020e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.089325e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[9, 9, 0, 0, 0, 0], [65, 65, 65, 65, 65, 65], [23, 23, 23, 23, 23, 23], [66, 21, 21, 21, 6, 6], [40, 40, 40, 40, 4, 4], [6, 6, 6, 6, 6, 6]]
+planning_average_latency: 141.00138401269842
+current_average_latency: 269.82616493904743
+effective_average_latency: 151.65888451988448
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[9, 9, 0, 0, 0, 0], [65, 65, 65, 65, 65, 65], [23, 23, 23, 23, 23, 23], [66, 21, 21, 21, 6, 6], [40, 40, 40, 40, 4, 4], [6, 6, 6, 6, 6, 6]]
+---------Iteration Time 2---------
+current plan's average static latency: 141.0001722515873
+current plan's average measured latency: 162.90998554755686
+current plan's measued latency in each workflow {'M.USER.APP.0': 24.917703257080642, 'M.USER.APP.1': 46.18825410550893, 'M.USER.APP.2': 31.68630267973852, 'M.USER.APP.3': 39.8823885738562, 'M.USER.APP.4': 20.235336931372544}
+shift_time: src  dst
+0    1      4.431386e-01
+     2      3.803925e+00
+1    0      8.823535e-01
+     4      0.000000e+00
+     6      9.882356e-01
+2    0      5.156851e-01
+     7      0.000000e+00
+     9      0.000000e+00
+3    0      8.823538e-01
+4    1      2.352946e-01
+     13     0.000000e+00
+5    1      2.352946e-01
+6    21     4.307843e+00
+7    23     0.000000e+00
+9    2      0.000000e+00
+13   4      7.352942e-08
+     40     0.000000e+00
+21   6      9.196078e-07
+     65     0.000000e+00
+     66     0.000000e+00
+40   13     0.000000e+00
+66   21     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[58, 58, 19, 6, 6, 6], [114, 114, 114, 114, 114, 114], [97, 32, 32, 32, 32, 32], [62, 62, 62, 62, 62, 62], [12, 12, 12, 12, 3, 3], [116, 116, 116, 116, 116, 3]]
+planning_average_latency: 173.0016393968254
+current_average_latency: 157.44017560396824
+effective_average_latency: 193.19707655021253
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 80.53172864
+---------Iteration Time 1---------
+current plan's average static latency: 248.00015118650794
+current plan's average measured latency: 281.4537407539681
+current plan's measued latency in each workflow {'M.USER.APP.0': 60.94645963492063, 'M.USER.APP.1': 41.6428770188492, 'M.USER.APP.2': 54.91075579365077, 'M.USER.APP.3': 21.83932013392856, 'M.USER.APP.4': 51.23931335515871, 'M.USER.APP.5': 50.87501481746019}
+shift_time: src  dst
+0    1      7.223219e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      6.196431e+00
+     4      0.000000e+00
+     5      2.785715e-01
+     6      0.000000e+00
+2    0      4.285718e-01
+     8      0.000000e+00
+3    0      9.464294e-01
+     10     0.000000e+00
+4    1      1.892859e-01
+     15     7.321429e-01
+5    1      2.142862e-01
+     16     1.339286e+00
+6    1      4.285716e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     2.499999e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      8.333333e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     2.500000e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.190476e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[9, 9, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [49, 49, 49, 49, 5, 5], [36, 36, 36, 36, 36, 36], [23, 23, 23, 23, 7, 7], [62, 62, 62, 62, 62, 62]]
+planning_average_latency: 136.0028291111111
+current_average_latency: 276.6256210528137
+effective_average_latency: 146.04744107014727
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[9, 9, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [49, 49, 49, 49, 5, 5], [36, 36, 36, 36, 36, 36], [23, 23, 23, 23, 7, 7], [62, 62, 62, 62, 62, 62]]
+---------Iteration Time 2---------
+current plan's average static latency: 135.8930831924603
+current plan's average measured latency: 195.26453535515844
+current plan's measued latency in each workflow {'M.USER.APP.0': 34.14292101190473, 'M.USER.APP.1': 6.692864325396841, 'M.USER.APP.2': 42.94652482142858, 'M.USER.APP.3': 48.73217214285704, 'M.USER.APP.4': 58.62503669642842, 'M.USER.APP.5': 4.125016357142853}
+shift_time: src  dst
+0    1      0.000000e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      1.895834e+01
+     5      0.000000e+00
+2    0      4.982136e-01
+     7      0.000000e+00
+     9      0.000000e+00
+3    0      9.464294e-01
+     11     0.000000e+00
+4    1      2.142862e-01
+5    1      2.142862e-01
+     16     0.000000e+00
+6    20     6.428571e-07
+7    23     0.000000e+00
+9    2      0.000000e+00
+11   36     0.000000e+00
+16   5      0.000000e+00
+     49     0.000000e+00
+20   62     1.249997e-01
+23   7      0.000000e+00
+49   16     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[9, 9, 0, 0, 0, 0], [120, 120, 120, 120, 120, 120], [87, 87, 87, 87, 87, 87], [22, 7, 7, 7, 7, 7], [71, 71, 71, 23, 7, 7], [63, 63, 63, 63, 63, 63]]
+planning_average_latency: 182.00182177777776
+current_average_latency: 192.5602464818179
+effective_average_latency: 200.78134293486266
+whether adaptation worthy: False
+ 
+**************************lambda rate is************************** 92.50243366
+---------Iteration Time 1---------
+current plan's average static latency: 247.17792816075837
+current plan's average measured latency: 275.6423922360668
+current plan's measued latency in each workflow {'M.USER.APP.0': 59.68891922962961, 'M.USER.APP.1': 40.111130895061734, 'M.USER.APP.2': 53.71115192901229, 'M.USER.APP.3': 21.615592220987672, 'M.USER.APP.4': 50.98225015308646, 'M.USER.APP.5': 49.53334780828904}
+shift_time: src  dst
+0    1      6.344449e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      5.200002e+00
+     4      0.000000e+00
+     5      1.677780e-01
+     6      0.000000e+00
+2    0      3.777781e-01
+     8      0.000000e+00
+3    0      7.111117e-01
+     10     0.000000e+00
+4    1      2.561809e-01
+     15     5.111111e-01
+5    1      2.000004e-01
+     16     1.066667e+00
+6    1      3.777780e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     2.222224e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.070707e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     2.666666e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.010101e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[93, 93, 9, 9, 2, 2], [26, 26, 26, 26, 26, 26], [115, 115, 115, 115, 12, 12], [5, 5, 5, 5, 5, 0], [28, 28, 28, 0, 0, 0], [44, 44, 44, 44, 44, 44]]
+planning_average_latency: 138.00367904761904
+current_average_latency: 272.56607737797594
+effective_average_latency: 149.724467125209
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[93, 93, 9, 9, 2, 2], [26, 26, 26, 26, 26, 26], [115, 115, 115, 115, 12, 12], [5, 5, 5, 5, 5, 0], [28, 28, 28, 0, 0, 0], [44, 44, 44, 44, 44, 44]]
+---------Iteration Time 2---------
+current plan's average static latency: 137.71158260317463
+current plan's average measured latency: 182.6115934592587
+current plan's measued latency in each workflow {'M.USER.APP.0': 33.333547111111095, 'M.USER.APP.1': 14.555561777777772, 'M.USER.APP.2': 19.377875925925927, 'M.USER.APP.3': 40.43339222222176, 'M.USER.APP.4': 54.444538888888815, 'M.USER.APP.5': 20.46667753333334}
+shift_time: src  dst
+0    2       0.000000
+1    0      14.207405
+     4       0.000000
+     5       0.000000
+2    0       0.000000
+     8       0.377778
+     9       0.000000
+3    12      0.111112
+4    1       0.200000
+     14      0.000000
+5    1       0.338897
+6    1       0.377778
+8    26      0.177778
+9    2       0.000000
+     28      0.000000
+     30      0.000000
+12   38      0.000000
+14   44      0.088889
+28   9       0.000000
+30   9       0.000000
+     93      0.000000
+38   12      0.000000
+     115     0.266666
+93   30      0.000000
+115  38      0.000001
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[113, 12, 12, 3, 3, 3], [28, 28, 28, 28, 28, 28], [99, 32, 32, 32, 32, 32], [0, 0, 0, 0, 0, 0], [30, 30, 9, 9, 2, 2], [69, 69, 69, 69, 69, 69]]
+planning_average_latency: 146.0029091111111
+current_average_latency: 181.0118405508653
+effective_average_latency: 163.82505656637898
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[113, 12, 12, 3, 3, 3], [28, 28, 28, 28, 28, 28], [99, 32, 32, 32, 32, 32], [0, 0, 0, 0, 0, 0], [30, 30, 9, 9, 2, 2], [69, 69, 69, 69, 69, 69]]
+---------Iteration Time 3---------
+current plan's average static latency: 144.4670184981481
+current plan's average measured latency: 275.200400523456
+current plan's measued latency in each workflow {'M.USER.APP.0': 59.555611604938186, 'M.USER.APP.1': 7.377802074074085, 'M.USER.APP.2': 19.555652388888877, 'M.USER.APP.3': 41.24446046419738, 'M.USER.APP.4': 60.04462554567884, 'M.USER.APP.5': 87.42224844567862}
+shift_time: src  dst
+0    2       0.000000
+     3       0.000000
+1    0      32.250011
+2    7       0.000000
+     9       0.011237
+3    10      0.555556
+     12      0.000000
+4    1       0.200000
+5    1       0.200000
+6    1       0.377778
+7    22      0.000000
+9    2       0.000000
+     28      0.377777
+     30      0.000000
+10   32      0.000000
+12   3       0.000000
+     37      0.000000
+22   69      0.000000
+30   9       0.000000
+32   99      0.000000
+37   12      0.000000
+     113     0.000000
+99   32      0.000000
+113  37      0.000000
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[109, 36, 36, 3, 3, 3], [24, 24, 24, 24, 24, 24], [56, 56, 56, 5, 5, 5], [44, 44, 44, 44, 14, 14], [76, 76, 25, 25, 25, 2], [61, 61, 61, 61, 61, 61]]
+planning_average_latency: 174.00234952380953
+current_average_latency: 274.8640352859841
+effective_average_latency: 195.90145538906816
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[109, 36, 36, 3, 3, 3], [24, 24, 24, 24, 24, 24], [56, 56, 56, 5, 5, 5], [44, 44, 44, 44, 14, 14], [76, 76, 25, 25, 25, 2], [61, 61, 61, 61, 61, 61]]
+---------Iteration Time 4---------
+current plan's average static latency: 173.4446810714286
+current plan's average measured latency: 188.33357513791879
+current plan's measued latency in each workflow {'M.USER.APP.0': 41.044509456790074, 'M.USER.APP.1': 11.377785407407409, 'M.USER.APP.2': 48.62226223456791, 'M.USER.APP.3': 17.466689723809534, 'M.USER.APP.4': 60.26675902645494, 'M.USER.APP.5': 9.555569288888902}
+shift_time: src  dst
+0    1      0.000000e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      6.288890e+00
+     5      0.000000e+00
+2    7      3.777781e-01
+     8      0.000000e+00
+3    0      7.111117e-01
+     11     0.000000e+00
+4    14     1.111117e-01
+5    1      2.000004e-01
+     18     0.000000e+00
+6    20     5.333333e-07
+7    24     0.000000e+00
+8    2      0.000000e+00
+     25     0.000000e+00
+11   3      0.000000e+00
+     36     0.000000e+00
+14   44     3.555552e-01
+18   5      0.000000e+00
+     56     0.000000e+00
+20   61     5.555553e-01
+25   8      0.000000e+00
+     76     0.000000e+00
+36   11     0.000000e+00
+     109    0.000000e+00
+44   14     8.507937e-07
+56   18     1.975309e-07
+76   25     0.000000e+00
+109  36     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[9, 9, 0, 0, 0, 0], [62, 62, 62, 62, 62, 62], [69, 69, 69, 69, 69, 69], [58, 58, 58, 58, 58, 58], [24, 24, 24, 24, 7, 7], [91, 91, 91, 91, 30, 30]]
+planning_average_latency: 167.00176752380955
+current_average_latency: 186.5911488212481
+effective_average_latency: 180.74525398476342
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[9, 9, 0, 0, 0, 0], [62, 62, 62, 62, 62, 62], [69, 69, 69, 69, 69, 69], [58, 58, 58, 58, 58, 58], [24, 24, 24, 24, 7, 7], [91, 91, 91, 91, 30, 30]]
+ 
+**************************lambda rate is************************** 115
+---------Iteration Time 1---------
+current plan's average static latency: 248.00015118650794
+current plan's average measured latency: 271.8232413859378
+current plan's measued latency in each workflow {'M.USER.APP.0': 59.00003010256408, 'M.USER.APP.1': 39.10258248575496, 'M.USER.APP.2': 52.923116983618186, 'M.USER.APP.3': 21.176957393162372, 'M.USER.APP.4': 50.77438669373218, 'M.USER.APP.5': 48.846167727106035}
+shift_time: src  dst
+0    1      5.410260e+00
+     2      0.000000e+00
+     3      0.000000e+00
+1    0      4.243591e+00
+     4      0.000000e+00
+     5      1.923079e-01
+     6      0.000000e+00
+2    0      3.589747e-01
+     8      0.000000e+00
+3    0      6.666670e-01
+     10     0.000000e+00
+4    1      1.282057e-01
+     15     5.128202e-01
+5    1      1.538467e-01
+     16     8.602563e-01
+6    1      3.589746e-01
+     19     0.000000e+00
+8    27     0.000000e+00
+10   32     0.000000e+00
+15   4      0.000000e+00
+     46     1.025642e-01
+16   50     0.000000e+00
+     51     0.000000e+00
+19   59     0.000000e+00
+27   8      7.977208e-07
+     83     0.000000e+00
+32   97     0.000000e+00
+46   15     1.538461e-07
+51   16     0.000000e+00
+59   19     0.000000e+00
+83   27     1.139601e-07
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[33, 33, 10, 3, 3, 3], [84, 84, 84, 84, 84, 84], [114, 114, 114, 114, 114, 114], [58, 58, 58, 58, 58, 58], [24, 24, 24, 7, 7, 7], [5, 5, 5, 5, 5, 5]]
+planning_average_latency: 139.00082263492067
+current_average_latency: 264.26594972984515
+effective_average_latency: 152.83608326306123
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[33, 33, 10, 3, 3, 3], [84, 84, 84, 84, 84, 84], [114, 114, 114, 114, 114, 114], [58, 58, 58, 58, 58, 58], [24, 24, 24, 7, 7, 7], [5, 5, 5, 5, 5, 5]]
+---------Iteration Time 2---------
+current plan's average static latency: 139.000102829365
+current plan's average measured latency: 151.48728490872998
+current plan's measued latency in each workflow {'M.USER.APP.0': 44.000024903846075, 'M.USER.APP.1': 20.666676450142443, 'M.USER.APP.2': 11.15387192307691, 'M.USER.APP.3': 21.461554945054957, 'M.USER.APP.4': 43.84617712250703, 'M.USER.APP.5': 10.358979564102569}
+shift_time: src  dst
+0    2      0.000000
+     3      0.000000
+1    0      5.346154
+     5      0.000000
+     6      0.205128
+2    7      0.000000
+     8      0.358975
+3    10     0.000000
+     12     0.076924
+4    1      0.153847
+5    1      0.153847
+6    1      0.358975
+     19     0.000000
+7    24     0.000000
+8    27     0.307692
+10   3      0.000000
+     33     0.000000
+12   37     0.076923
+19   58     0.102564
+24   7      0.000000
+27   84     0.000000
+33   10     0.000000
+37   114    0.000000
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[4, 0, 0, 0, 0, 0], [42, 42, 42, 42, 42, 42], [32, 32, 32, 32, 10, 10], [62, 62, 62, 62, 62, 62], [24, 24, 24, 24, 7, 7], [42, 42, 42, 42, 42, 42]]
+planning_average_latency: 125.00176022222223
+current_average_latency: 147.42115566906836
+effective_average_latency: 136.24558062099507
+whether adaptation worthy: True
+Start deploy new plan!
+new plan is: [[4, 0, 0, 0, 0, 0], [42, 42, 42, 42, 42, 42], [32, 32, 32, 32, 10, 10], [62, 62, 62, 62, 62, 62], [24, 24, 24, 24, 7, 7], [42, 42, 42, 42, 42, 42]]
+---------Iteration Time 3---------
+current plan's average static latency: 125.00015196111113
+current plan's average measured latency: 138.31554380584032
+current plan's measued latency in each workflow {'M.USER.APP.0': 25.546167051282016, 'M.USER.APP.1': 27.948740897435894, 'M.USER.APP.2': 14.564150032051284, 'M.USER.APP.3': 14.359009700854717, 'M.USER.APP.4': 37.00002456866097, 'M.USER.APP.5': 18.897451555555456}
+shift_time: src  dst
+0    1      3.076922e-01
+     2      0.000000e+00
+1    0      4.662818e+00
+     4      3.760712e-01
+     6      2.051280e-01
+2    0      3.589747e-01
+     7      0.000000e+00
+3    10     5.641029e-01
+4    1      4.564110e-01
+     13     1.025641e-07
+5    1      1.538467e-01
+6    1      3.589746e-01
+     20     0.000000e+00
+7    24     0.000000e+00
+10   32     0.000000e+00
+13   42     1.025641e-07
+20   62     0.000000e+00
+24   7      0.000000e+00
+32   10     0.000000e+00
+Name: shiftime, dtype: float64
+threshold 0
+whether adaptation required: True
+Start creating new plan!
+new plan created by GA: [[20, 20, 6, 6, 0, 0], [14, 14, 14, 14, 14, 14], [36, 36, 36, 36, 36, 36], [7, 7, 7, 7, 7, 7], [3, 3, 3, 0, 0, 0], [13, 13, 4, 4, 4, 4]]
+planning_average_latency: 127.00111444444445
+current_average_latency: 134.49752343143265
+effective_average_latency: 138.5757024477993
+whether adaptation worthy: False
+each lr results: [96.72578843121707, 167.36380630808048, 148.4314141701387, 136.50022615509246, 137.10024476944434, 162.90998554755686, 195.26453535515844, 138.31554380584032]

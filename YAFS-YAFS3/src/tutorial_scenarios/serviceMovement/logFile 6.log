@@ -1,0 +1,683 @@
+2023-03-01 12:57:44,236 - root - INFO - Running experiment it: - 0
+2023-03-01 12:58:04,726 - root - INFO -  Performing simulation: 0 
+2023-03-01 12:58:04,863 - root - INFO - Activating Custom process - number 0 
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_01 from 0 to 17 node
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_02 from 0 to 57 node
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_03 from 0 to 21 node
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_04 from 0 to 53 node
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_05 from 0 to 44 node
+2023-03-01 12:58:04,867 - root - INFO - Moving Service 0_06 from 0 to 62 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_01 from 0 to 2 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_02 from 0 to 44 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_03 from 0 to 27 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_04 from 0 to 11 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_05 from 0 to 29 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 1_06 from 0 to 21 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 2_01 from 0 to 53 node
+2023-03-01 12:58:04,868 - root - INFO - Moving Service 2_02 from 0 to 59 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 2_03 from 0 to 59 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 2_04 from 0 to 20 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 2_05 from 0 to 46 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 2_06 from 0 to 7 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 3_01 from 0 to 43 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 3_02 from 0 to 59 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 3_04 from 0 to 38 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 3_05 from 0 to 46 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 3_06 from 0 to 25 node
+2023-03-01 12:58:04,869 - root - INFO - Moving Service 4_01 from 0 to 23 node
+2023-03-01 12:58:04,870 - root - INFO - Moving Service 4_02 from 0 to 54 node
+2023-03-01 12:58:04,870 - root - INFO - Moving Service 4_03 from 0 to 23 node
+2023-03-01 12:58:04,870 - root - INFO - Moving Service 4_04 from 0 to 54 node
+2023-03-01 12:58:04,870 - root - INFO - Moving Service 4_05 from 0 to 47 node
+2023-03-01 12:58:04,870 - root - INFO - Moving Service 4_06 from 0 to 8 node
+2023-03-01 12:58:04,987 - root - INFO - Activating Custom process - number 1 
+2023-03-01 12:58:04,988 - root - INFO - Moving Service 3_03 from 0 to 51 node
+2023-03-01 12:58:04,988 - root - INFO - Moving Service 1_01 from 2 to 41 node
+2023-03-01 12:58:04,988 - root - INFO - Moving Service 2_06 from 7 to 42 node
+2023-03-01 12:58:04,989 - root - INFO - Moving Service 4_06 from 8 to 54 node
+2023-03-01 12:58:04,989 - root - INFO - Moving Service 1_04 from 11 to 36 node
+2023-03-01 12:58:04,989 - root - INFO - Moving Service 0_01 from 17 to 26 node
+2023-03-01 12:58:04,989 - root - INFO - Moving Service 2_04 from 20 to 17 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 0_03 from 21 to 53 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 1_06 from 21 to 50 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 4_01 from 23 to 59 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 4_03 from 23 to 25 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 3_06 from 25 to 30 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 1_03 from 27 to 8 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 1_05 from 29 to 38 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 3_04 from 38 to 54 node
+2023-03-01 12:58:04,990 - root - INFO - Moving Service 3_01 from 43 to 18 node
+2023-03-01 12:58:04,991 - root - INFO - Moving Service 0_05 from 44 to 54 node
+2023-03-01 12:58:04,991 - root - INFO - Moving Service 1_02 from 44 to 22 node
+2023-03-01 12:58:04,991 - root - INFO - Moving Service 2_05 from 46 to 7 node
+2023-03-01 12:58:04,991 - root - INFO - Moving Service 3_05 from 46 to 50 node
+2023-03-01 12:58:04,992 - root - INFO - Moving Service 4_05 from 47 to 49 node
+2023-03-01 12:58:04,992 - root - INFO - Moving Service 0_04 from 53 to 29 node
+2023-03-01 12:58:04,992 - root - INFO - Moving Service 2_01 from 53 to 4 node
+2023-03-01 12:58:04,992 - root - INFO - Moving Service 4_02 from 54 to 62 node
+2023-03-01 12:58:04,992 - root - INFO - Moving Service 4_04 from 54 to 43 node
+2023-03-01 12:58:04,993 - root - INFO - Moving Service 0_02 from 57 to 23 node
+2023-03-01 12:58:04,993 - root - INFO - Moving Service 2_02 from 59 to 32 node
+2023-03-01 12:58:04,993 - root - INFO - Moving Service 2_03 from 59 to 7 node
+2023-03-01 12:58:04,993 - root - INFO - Moving Service 3_02 from 59 to 30 node
+2023-03-01 12:58:04,993 - root - INFO - Moving Service 0_06 from 62 to 14 node
+2023-03-01 12:58:04,994 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:63
+2023-03-01 12:58:04,994 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:47
+2023-03-01 12:58:04,994 - yafs.core - WARNING - (#DES:63)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:04,994 - yafs.core - WARNING - (#DES:47)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:04,996 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:40
+2023-03-01 12:58:04,996 - yafs.core - WARNING - (#DES:40)	--- Unreacheable DST:	0_(0-5) 
+2023-03-01 12:58:04,997 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:45
+2023-03-01 12:58:04,997 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:57
+2023-03-01 12:58:04,997 - yafs.core - WARNING - (#DES:45)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:04,997 - yafs.core - WARNING - (#DES:57)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:04,998 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:54
+2023-03-01 12:58:04,999 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:59
+2023-03-01 12:58:04,999 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:39
+2023-03-01 12:58:04,999 - yafs.core - WARNING - (#DES:39)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,000 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:52
+2023-03-01 12:58:05,000 - yafs.core - WARNING - (#DES:52)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:05,001 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:42
+2023-03-01 12:58:05,096 - root - INFO - Activating Custom process - number 2 
+2023-03-01 12:58:05,096 - root - INFO - Moving Service 2_01 from 4 to 34 node
+2023-03-01 12:58:05,096 - root - INFO - Moving Service 2_03 from 7 to 33 node
+2023-03-01 12:58:05,096 - root - INFO - Moving Service 2_05 from 7 to 6 node
+2023-03-01 12:58:05,097 - root - INFO - Moving Service 1_03 from 8 to 54 node
+2023-03-01 12:58:05,097 - root - INFO - Moving Service 0_06 from 14 to 47 node
+2023-03-01 12:58:05,097 - root - INFO - Moving Service 2_04 from 17 to 44 node
+2023-03-01 12:58:05,098 - root - INFO - Moving Service 3_01 from 18 to 52 node
+2023-03-01 12:58:05,098 - root - INFO - Moving Service 1_02 from 22 to 57 node
+2023-03-01 12:58:05,098 - root - INFO - Moving Service 0_02 from 23 to 52 node
+2023-03-01 12:58:05,099 - root - INFO - Moving Service 4_03 from 25 to 4 node
+2023-03-01 12:58:05,099 - root - INFO - Moving Service 0_01 from 26 to 44 node
+2023-03-01 12:58:05,101 - root - INFO - Moving Service 0_04 from 29 to 51 node
+2023-03-01 12:58:05,104 - root - INFO - Moving Service 3_02 from 30 to 59 node
+2023-03-01 12:58:05,105 - root - INFO - Moving Service 3_06 from 30 to 13 node
+2023-03-01 12:58:05,106 - root - INFO - Moving Service 2_02 from 32 to 0 node
+2023-03-01 12:58:05,106 - root - INFO - Moving Service 1_04 from 36 to 13 node
+2023-03-01 12:58:05,107 - root - INFO - Moving Service 1_05 from 38 to 21 node
+2023-03-01 12:58:05,107 - root - INFO - Moving Service 1_01 from 41 to 23 node
+2023-03-01 12:58:05,107 - root - INFO - Moving Service 2_06 from 42 to 10 node
+2023-03-01 12:58:05,108 - root - INFO - Moving Service 4_04 from 43 to 52 node
+2023-03-01 12:58:05,108 - root - INFO - Moving Service 4_05 from 49 to 44 node
+2023-03-01 12:58:05,109 - root - INFO - Moving Service 1_06 from 50 to 29 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 3_05 from 50 to 19 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 3_03 from 51 to 12 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 0_03 from 53 to 28 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 0_05 from 54 to 52 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 3_04 from 54 to 57 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 4_06 from 54 to 22 node
+2023-03-01 12:58:05,110 - root - INFO - Moving Service 4_01 from 59 to 13 node
+2023-03-01 12:58:05,111 - root - INFO - Moving Service 4_02 from 62 to 4 node
+2023-03-01 12:58:05,113 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:77
+2023-03-01 12:58:05,113 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:78
+2023-03-01 12:58:05,113 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:68
+2023-03-01 12:58:05,113 - yafs.core - WARNING - (#DES:78)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:05,113 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:73
+2023-03-01 12:58:05,114 - yafs.core - WARNING - (#DES:73)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,114 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:86
+2023-03-01 12:58:05,115 - yafs.core - WARNING - (#DES:86)	--- Unreacheable DST:	4_(0-6) 
+2023-03-01 12:58:05,115 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:66
+2023-03-01 12:58:05,115 - yafs.core - WARNING - (#DES:66)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,116 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:74
+2023-03-01 12:58:05,117 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:95
+2023-03-01 12:58:05,119 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:90
+2023-03-01 12:58:05,119 - yafs.core - WARNING - (#DES:90)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:05,213 - root - INFO - Activating Custom process - number 3 
+2023-03-01 12:58:05,213 - root - INFO - Moving Service 2_02 from 0 to 6 node
+2023-03-01 12:58:05,213 - root - INFO - Moving Service 4_02 from 4 to 31 node
+2023-03-01 12:58:05,214 - root - INFO - Moving Service 4_03 from 4 to 61 node
+2023-03-01 12:58:05,214 - root - INFO - Moving Service 2_05 from 6 to 58 node
+2023-03-01 12:58:05,214 - root - INFO - Moving Service 2_06 from 10 to 40 node
+2023-03-01 12:58:05,214 - root - INFO - Moving Service 3_03 from 12 to 20 node
+2023-03-01 12:58:05,215 - root - INFO - Moving Service 1_04 from 13 to 12 node
+2023-03-01 12:58:05,215 - root - INFO - Moving Service 3_06 from 13 to 12 node
+2023-03-01 12:58:05,216 - root - INFO - Moving Service 4_01 from 13 to 62 node
+2023-03-01 12:58:05,216 - root - INFO - Moving Service 3_05 from 19 to 60 node
+2023-03-01 12:58:05,216 - root - INFO - Moving Service 1_05 from 21 to 36 node
+2023-03-01 12:58:05,216 - root - INFO - Moving Service 4_06 from 22 to 43 node
+2023-03-01 12:58:05,217 - root - INFO - Moving Service 1_01 from 23 to 14 node
+2023-03-01 12:58:05,217 - root - INFO - Moving Service 0_03 from 28 to 30 node
+2023-03-01 12:58:05,217 - root - INFO - Moving Service 1_06 from 29 to 10 node
+2023-03-01 12:58:05,217 - root - INFO - Moving Service 2_03 from 33 to 54 node
+2023-03-01 12:58:05,217 - root - INFO - Moving Service 2_01 from 34 to 36 node
+2023-03-01 12:58:05,218 - root - INFO - Moving Service 0_01 from 44 to 45 node
+2023-03-01 12:58:05,218 - root - INFO - Moving Service 2_04 from 44 to 50 node
+2023-03-01 12:58:05,218 - root - INFO - Moving Service 4_05 from 44 to 37 node
+2023-03-01 12:58:05,219 - root - INFO - Moving Service 0_06 from 47 to 18 node
+2023-03-01 12:58:05,220 - root - INFO - Moving Service 0_04 from 51 to 54 node
+2023-03-01 12:58:05,221 - root - INFO - Moving Service 0_02 from 52 to 23 node
+2023-03-01 12:58:05,224 - root - INFO - Moving Service 0_05 from 52 to 10 node
+2023-03-01 12:58:05,224 - root - INFO - Moving Service 3_01 from 52 to 25 node
+2023-03-01 12:58:05,224 - root - INFO - Moving Service 4_04 from 52 to 38 node
+2023-03-01 12:58:05,225 - root - INFO - Moving Service 1_03 from 54 to 25 node
+2023-03-01 12:58:05,225 - root - INFO - Moving Service 1_02 from 57 to 43 node
+2023-03-01 12:58:05,225 - root - INFO - Moving Service 3_04 from 57 to 18 node
+2023-03-01 12:58:05,226 - root - INFO - Moving Service 3_02 from 59 to 23 node
+2023-03-01 12:58:05,227 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:114
+2023-03-01 12:58:05,228 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:109
+2023-03-01 12:58:05,228 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:115
+2023-03-01 12:58:05,228 - yafs.core - WARNING - (#DES:115)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:05,229 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:117
+2023-03-01 12:58:05,229 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:101
+2023-03-01 12:58:05,229 - yafs.core - WARNING - (#DES:101)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:05,231 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:119
+2023-03-01 12:58:05,231 - yafs.core - WARNING - (#DES:119)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,232 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:100
+2023-03-01 12:58:05,232 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:118
+2023-03-01 12:58:05,232 - yafs.core - WARNING - (#DES:118)	--- Unreacheable DST:	3_(0-6) 
+2023-03-01 12:58:05,234 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:120
+2023-03-01 12:58:05,234 - yafs.core - WARNING - (#DES:120)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,235 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:112
+2023-03-01 12:58:05,235 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:99
+2023-03-01 12:58:05,236 - yafs.core - WARNING - (#DES:112)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:05,236 - yafs.core - WARNING - (#DES:99)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:05,341 - root - INFO - Activating Custom process - number 4 
+2023-03-01 12:58:05,341 - root - INFO - Moving Service 2_02 from 6 to 17 node
+2023-03-01 12:58:05,341 - root - INFO - Moving Service 0_05 from 10 to 60 node
+2023-03-01 12:58:05,341 - root - INFO - Moving Service 1_06 from 10 to 59 node
+2023-03-01 12:58:05,341 - root - INFO - Moving Service 1_04 from 12 to 35 node
+2023-03-01 12:58:05,342 - root - INFO - Moving Service 3_06 from 12 to 14 node
+2023-03-01 12:58:05,342 - root - INFO - Moving Service 1_01 from 14 to 51 node
+2023-03-01 12:58:05,342 - root - INFO - Moving Service 0_06 from 18 to 37 node
+2023-03-01 12:58:05,343 - root - INFO - Moving Service 3_04 from 18 to 49 node
+2023-03-01 12:58:05,343 - root - INFO - Moving Service 3_03 from 20 to 34 node
+2023-03-01 12:58:05,344 - root - INFO - Moving Service 0_02 from 23 to 8 node
+2023-03-01 12:58:05,345 - root - INFO - Moving Service 3_02 from 23 to 60 node
+2023-03-01 12:58:05,345 - root - INFO - Moving Service 1_03 from 25 to 56 node
+2023-03-01 12:58:05,346 - root - INFO - Moving Service 3_01 from 25 to 2 node
+2023-03-01 12:58:05,346 - root - INFO - Moving Service 0_03 from 30 to 50 node
+2023-03-01 12:58:05,347 - root - INFO - Moving Service 4_02 from 31 to 25 node
+2023-03-01 12:58:05,347 - root - INFO - Moving Service 1_05 from 36 to 50 node
+2023-03-01 12:58:05,347 - root - INFO - Moving Service 2_01 from 36 to 56 node
+2023-03-01 12:58:05,347 - root - INFO - Moving Service 4_05 from 37 to 53 node
+2023-03-01 12:58:05,348 - root - INFO - Moving Service 4_04 from 38 to 56 node
+2023-03-01 12:58:05,348 - root - INFO - Moving Service 2_06 from 40 to 26 node
+2023-03-01 12:58:05,348 - root - INFO - Moving Service 1_02 from 43 to 55 node
+2023-03-01 12:58:05,349 - root - INFO - Moving Service 4_06 from 43 to 59 node
+2023-03-01 12:58:05,349 - root - INFO - Moving Service 0_01 from 45 to 57 node
+2023-03-01 12:58:05,349 - root - INFO - Moving Service 2_04 from 50 to 26 node
+2023-03-01 12:58:05,350 - root - INFO - Moving Service 0_04 from 54 to 48 node
+2023-03-01 12:58:05,350 - root - INFO - Moving Service 2_03 from 54 to 39 node
+2023-03-01 12:58:05,350 - root - INFO - Moving Service 2_05 from 58 to 37 node
+2023-03-01 12:58:05,351 - root - INFO - Moving Service 3_05 from 60 to 38 node
+2023-03-01 12:58:05,351 - root - INFO - Moving Service 4_03 from 61 to 25 node
+2023-03-01 12:58:05,352 - root - INFO - Moving Service 4_01 from 62 to 13 node
+2023-03-01 12:58:05,354 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:127
+2023-03-01 12:58:05,354 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:135
+2023-03-01 12:58:05,354 - yafs.core - WARNING - (#DES:127)	--- Unreacheable DST:	4_(0-3) 
+2023-03-01 12:58:05,355 - yafs.core - WARNING - (#DES:135)	--- Unreacheable DST:	3_(0-6) 
+2023-03-01 12:58:05,356 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:139
+2023-03-01 12:58:05,356 - yafs.core - WARNING - (#DES:139)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,357 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:151
+2023-03-01 12:58:05,357 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:149
+2023-03-01 12:58:05,358 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:144
+2023-03-01 12:58:05,358 - yafs.core - WARNING - (#DES:151)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:05,358 - yafs.core - WARNING - (#DES:149)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:05,359 - yafs.core - WARNING - (#DES:144)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:05,359 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:152
+2023-03-01 12:58:05,359 - yafs.core - WARNING - (#DES:152)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:05,359 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:131
+2023-03-01 12:58:05,360 - yafs.core - WARNING - (#DES:131)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,362 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:130
+2023-03-01 12:58:05,470 - root - INFO - Activating Custom process - number 5 
+2023-03-01 12:58:05,470 - root - INFO - Moving Service 3_01 from 2 to 46 node
+2023-03-01 12:58:05,471 - root - INFO - Moving Service 0_02 from 8 to 43 node
+2023-03-01 12:58:05,472 - root - INFO - Moving Service 4_01 from 13 to 12 node
+2023-03-01 12:58:05,472 - root - INFO - Moving Service 3_06 from 14 to 37 node
+2023-03-01 12:58:05,473 - root - INFO - Moving Service 2_02 from 17 to 7 node
+2023-03-01 12:58:05,473 - root - INFO - Moving Service 4_02 from 25 to 1 node
+2023-03-01 12:58:05,473 - root - INFO - Moving Service 4_03 from 25 to 10 node
+2023-03-01 12:58:05,473 - root - INFO - Moving Service 2_04 from 26 to 1 node
+2023-03-01 12:58:05,474 - root - INFO - Moving Service 2_06 from 26 to 49 node
+2023-03-01 12:58:05,474 - root - INFO - Moving Service 3_03 from 34 to 4 node
+2023-03-01 12:58:05,474 - root - INFO - Moving Service 1_04 from 35 to 10 node
+2023-03-01 12:58:05,474 - root - INFO - Moving Service 0_06 from 37 to 59 node
+2023-03-01 12:58:05,475 - root - INFO - Moving Service 2_05 from 37 to 11 node
+2023-03-01 12:58:05,475 - root - INFO - Moving Service 3_05 from 38 to 19 node
+2023-03-01 12:58:05,475 - root - INFO - Moving Service 2_03 from 39 to 7 node
+2023-03-01 12:58:05,476 - root - INFO - Moving Service 3_04 from 49 to 13 node
+2023-03-01 12:58:05,476 - root - INFO - Moving Service 0_03 from 50 to 60 node
+2023-03-01 12:58:05,476 - root - INFO - Moving Service 1_05 from 50 to 35 node
+2023-03-01 12:58:05,477 - root - INFO - Moving Service 1_01 from 51 to 62 node
+2023-03-01 12:58:05,477 - root - INFO - Moving Service 4_05 from 53 to 18 node
+2023-03-01 12:58:05,477 - root - INFO - Moving Service 1_02 from 55 to 49 node
+2023-03-01 12:58:05,478 - root - INFO - Moving Service 1_03 from 56 to 27 node
+2023-03-01 12:58:05,478 - root - INFO - Moving Service 2_01 from 56 to 61 node
+2023-03-01 12:58:05,478 - root - INFO - Moving Service 4_04 from 56 to 12 node
+2023-03-01 12:58:05,479 - root - INFO - Moving Service 0_01 from 57 to 45 node
+2023-03-01 12:58:05,479 - root - INFO - Moving Service 1_06 from 59 to 40 node
+2023-03-01 12:58:05,479 - root - INFO - Moving Service 4_06 from 59 to 20 node
+2023-03-01 12:58:05,479 - root - INFO - Moving Service 0_05 from 60 to 59 node
+2023-03-01 12:58:05,479 - root - INFO - Moving Service 3_02 from 60 to 13 node
+2023-03-01 12:58:05,483 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:179
+2023-03-01 12:58:05,484 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:167
+2023-03-01 12:58:05,484 - yafs.core - WARNING - (#DES:179)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:05,485 - yafs.core - WARNING - (#DES:167)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:05,487 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:164
+2023-03-01 12:58:05,487 - yafs.core - WARNING - (#DES:164)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,490 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:174
+2023-03-01 12:58:05,490 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:156
+2023-03-01 12:58:05,491 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:171
+2023-03-01 12:58:05,491 - yafs.core - WARNING - (#DES:174)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:05,491 - yafs.core - WARNING - (#DES:156)	--- Unreacheable DST:	2_(0-3) 
+2023-03-01 12:58:05,491 - yafs.core - WARNING - (#DES:171)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:05,492 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:175
+2023-03-01 12:58:05,492 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:162
+2023-03-01 12:58:05,493 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:165
+2023-03-01 12:58:05,493 - yafs.core - WARNING - (#DES:165)	--- Unreacheable DST:	0_(0-3) 
+2023-03-01 12:58:05,495 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:177
+2023-03-01 12:58:05,496 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:183
+2023-03-01 12:58:05,497 - yafs.core - WARNING - (#DES:183)	--- Unreacheable DST:	3_(0-6) 
+2023-03-01 12:58:05,498 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:157
+2023-03-01 12:58:05,498 - yafs.core - WARNING - (#DES:157)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:05,594 - root - INFO - Activating Custom process - number 6 
+2023-03-01 12:58:05,594 - root - INFO - Moving Service 2_04 from 1 to 31 node
+2023-03-01 12:58:05,594 - root - INFO - Moving Service 4_02 from 1 to 8 node
+2023-03-01 12:58:05,595 - root - INFO - Moving Service 3_03 from 4 to 15 node
+2023-03-01 12:58:05,595 - root - INFO - Moving Service 2_02 from 7 to 61 node
+2023-03-01 12:58:05,595 - root - INFO - Moving Service 2_03 from 7 to 22 node
+2023-03-01 12:58:05,595 - root - INFO - Moving Service 1_04 from 10 to 1 node
+2023-03-01 12:58:05,596 - root - INFO - Moving Service 4_03 from 10 to 61 node
+2023-03-01 12:58:05,596 - root - INFO - Moving Service 2_05 from 11 to 58 node
+2023-03-01 12:58:05,596 - root - INFO - Moving Service 4_01 from 12 to 52 node
+2023-03-01 12:58:05,597 - root - INFO - Moving Service 4_04 from 12 to 18 node
+2023-03-01 12:58:05,597 - root - INFO - Moving Service 3_02 from 13 to 31 node
+2023-03-01 12:58:05,598 - root - INFO - Moving Service 3_04 from 13 to 33 node
+2023-03-01 12:58:05,598 - root - INFO - Moving Service 4_05 from 18 to 49 node
+2023-03-01 12:58:05,598 - root - INFO - Moving Service 3_05 from 19 to 51 node
+2023-03-01 12:58:05,599 - root - INFO - Moving Service 4_06 from 20 to 2 node
+2023-03-01 12:58:05,599 - root - INFO - Moving Service 1_03 from 27 to 37 node
+2023-03-01 12:58:05,599 - root - INFO - Moving Service 1_05 from 35 to 50 node
+2023-03-01 12:58:05,600 - root - INFO - Moving Service 3_06 from 37 to 25 node
+2023-03-01 12:58:05,600 - root - INFO - Moving Service 1_06 from 40 to 8 node
+2023-03-01 12:58:05,601 - root - INFO - Moving Service 0_02 from 43 to 62 node
+2023-03-01 12:58:05,601 - root - INFO - Moving Service 0_01 from 45 to 9 node
+2023-03-01 12:58:05,602 - root - INFO - Moving Service 3_01 from 46 to 6 node
+2023-03-01 12:58:05,602 - root - INFO - Moving Service 0_04 from 48 to 33 node
+2023-03-01 12:58:05,602 - root - INFO - Moving Service 1_02 from 49 to 17 node
+2023-03-01 12:58:05,603 - root - INFO - Moving Service 2_06 from 49 to 12 node
+2023-03-01 12:58:05,603 - root - INFO - Moving Service 0_05 from 59 to 50 node
+2023-03-01 12:58:05,604 - root - INFO - Moving Service 0_06 from 59 to 24 node
+2023-03-01 12:58:05,604 - root - INFO - Moving Service 0_03 from 60 to 26 node
+2023-03-01 12:58:05,604 - root - INFO - Moving Service 2_01 from 61 to 56 node
+2023-03-01 12:58:05,605 - root - INFO - Moving Service 1_01 from 62 to 24 node
+2023-03-01 12:58:05,609 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:199
+2023-03-01 12:58:05,609 - yafs.core - WARNING - (#DES:199)	--- Unreacheable DST:	3_(0-6) 
+2023-03-01 12:58:05,610 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:195
+2023-03-01 12:58:05,610 - yafs.core - WARNING - (#DES:195)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,611 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:203
+2023-03-01 12:58:05,611 - yafs.core - WARNING - (#DES:203)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:05,612 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:207
+2023-03-01 12:58:05,612 - yafs.core - WARNING - (#DES:207)	--- Unreacheable DST:	1_(0-4) 
+2023-03-01 12:58:05,612 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:198
+2023-03-01 12:58:05,612 - yafs.core - WARNING - (#DES:198)	--- Unreacheable DST:	2_(0-6) 
+2023-03-01 12:58:05,613 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:180
+2023-03-01 12:58:05,613 - yafs.core - WARNING - (#DES:180)	--- Unreacheable DST:	0_(0-5) 
+2023-03-01 12:58:05,613 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:205
+2023-03-01 12:58:05,613 - yafs.core - WARNING - (#DES:205)	--- Unreacheable DST:	4_(0-6) 
+2023-03-01 12:58:05,709 - root - INFO - Activating Custom process - number 7 
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 1_04 from 1 to 35 node
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 4_06 from 2 to 49 node
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 3_01 from 6 to 16 node
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 1_06 from 8 to 2 node
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 4_02 from 8 to 15 node
+2023-03-01 12:58:05,709 - root - INFO - Moving Service 0_01 from 9 to 26 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 2_06 from 12 to 25 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 3_03 from 15 to 44 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 1_02 from 17 to 52 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 4_04 from 18 to 4 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 0_06 from 24 to 38 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 1_01 from 24 to 2 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 3_06 from 25 to 22 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 0_03 from 26 to 17 node
+2023-03-01 12:58:05,710 - root - INFO - Moving Service 2_04 from 31 to 22 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 3_02 from 31 to 38 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 0_04 from 33 to 12 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 3_04 from 33 to 30 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 1_03 from 37 to 3 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 4_05 from 49 to 48 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 0_05 from 50 to 57 node
+2023-03-01 12:58:05,711 - root - INFO - Moving Service 1_05 from 50 to 59 node
+2023-03-01 12:58:05,712 - root - INFO - Moving Service 3_05 from 51 to 16 node
+2023-03-01 12:58:05,712 - root - INFO - Moving Service 4_01 from 52 to 36 node
+2023-03-01 12:58:05,712 - root - INFO - Moving Service 2_01 from 56 to 22 node
+2023-03-01 12:58:05,713 - root - INFO - Moving Service 2_05 from 58 to 49 node
+2023-03-01 12:58:05,713 - root - INFO - Moving Service 2_02 from 61 to 49 node
+2023-03-01 12:58:05,713 - root - INFO - Moving Service 4_03 from 61 to 48 node
+2023-03-01 12:58:05,713 - root - INFO - Moving Service 0_02 from 62 to 14 node
+2023-03-01 12:58:05,714 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:227
+2023-03-01 12:58:05,715 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:226
+2023-03-01 12:58:05,715 - yafs.core - WARNING - (#DES:227)	--- Unreacheable DST:	4_(0-6) 
+2023-03-01 12:58:05,715 - yafs.core - WARNING - (#DES:226)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:05,715 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:221
+2023-03-01 12:58:05,715 - yafs.core - WARNING - (#DES:221)	--- Unreacheable DST:	4_(0-4) 
+2023-03-01 12:58:05,716 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:233
+2023-03-01 12:58:05,716 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:242
+2023-03-01 12:58:05,717 - yafs.core - WARNING - (#DES:242)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,717 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:220
+2023-03-01 12:58:05,717 - yafs.core - WARNING - (#DES:220)	--- Unreacheable DST:	1_(0-5) 
+2023-03-01 12:58:05,718 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:222
+2023-03-01 12:58:05,719 - yafs.core - WARNING - (#DES:222)	--- Unreacheable DST:	2_(0-6) 
+2023-03-01 12:58:05,720 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:240
+2023-03-01 12:58:05,720 - yafs.core - WARNING - (#DES:240)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:05,830 - root - INFO - Activating Custom process - number 8 
+2023-03-01 12:58:05,830 - root - INFO - Moving Service 1_01 from 2 to 53 node
+2023-03-01 12:58:05,830 - root - INFO - Moving Service 1_06 from 2 to 28 node
+2023-03-01 12:58:05,832 - root - INFO - Moving Service 1_03 from 3 to 10 node
+2023-03-01 12:58:05,833 - root - INFO - Moving Service 4_04 from 4 to 24 node
+2023-03-01 12:58:05,833 - root - INFO - Moving Service 0_04 from 12 to 62 node
+2023-03-01 12:58:05,833 - root - INFO - Moving Service 0_02 from 14 to 45 node
+2023-03-01 12:58:05,834 - root - INFO - Moving Service 4_02 from 15 to 51 node
+2023-03-01 12:58:05,834 - root - INFO - Moving Service 3_01 from 16 to 29 node
+2023-03-01 12:58:05,834 - root - INFO - Moving Service 3_05 from 16 to 37 node
+2023-03-01 12:58:05,834 - root - INFO - Moving Service 0_03 from 17 to 1 node
+2023-03-01 12:58:05,835 - root - INFO - Moving Service 2_01 from 22 to 62 node
+2023-03-01 12:58:05,835 - root - INFO - Moving Service 2_03 from 22 to 25 node
+2023-03-01 12:58:05,835 - root - INFO - Moving Service 2_04 from 22 to 7 node
+2023-03-01 12:58:05,835 - root - INFO - Moving Service 3_06 from 22 to 8 node
+2023-03-01 12:58:05,836 - root - INFO - Moving Service 2_06 from 25 to 46 node
+2023-03-01 12:58:05,836 - root - INFO - Moving Service 0_01 from 26 to 17 node
+2023-03-01 12:58:05,836 - root - INFO - Moving Service 3_04 from 30 to 46 node
+2023-03-01 12:58:05,837 - root - INFO - Moving Service 1_04 from 35 to 20 node
+2023-03-01 12:58:05,837 - root - INFO - Moving Service 4_01 from 36 to 1 node
+2023-03-01 12:58:05,837 - root - INFO - Moving Service 0_06 from 38 to 35 node
+2023-03-01 12:58:05,838 - root - INFO - Moving Service 3_02 from 38 to 39 node
+2023-03-01 12:58:05,838 - root - INFO - Moving Service 3_03 from 44 to 45 node
+2023-03-01 12:58:05,838 - root - INFO - Moving Service 4_03 from 48 to 59 node
+2023-03-01 12:58:05,892 - root - INFO - Moving Service 4_05 from 48 to 21 node
+2023-03-01 12:58:05,893 - root - INFO - Moving Service 2_02 from 49 to 55 node
+2023-03-01 12:58:05,894 - root - INFO - Moving Service 2_05 from 49 to 55 node
+2023-03-01 12:58:05,894 - root - INFO - Moving Service 4_06 from 49 to 5 node
+2023-03-01 12:58:05,894 - root - INFO - Moving Service 1_02 from 52 to 35 node
+2023-03-01 12:58:05,894 - root - INFO - Moving Service 0_05 from 57 to 23 node
+2023-03-01 12:58:05,894 - root - INFO - Moving Service 1_05 from 59 to 14 node
+2023-03-01 12:58:05,896 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:251
+2023-03-01 12:58:05,896 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:252
+2023-03-01 12:58:05,897 - yafs.core - WARNING - (#DES:252)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:05,897 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:267
+2023-03-01 12:58:05,897 - yafs.core - WARNING - (#DES:267)	--- Unreacheable DST:	3_(0-6) 
+2023-03-01 12:58:05,898 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:258
+2023-03-01 12:58:05,898 - yafs.core - WARNING - (#DES:258)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:05,899 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:272
+2023-03-01 12:58:05,899 - yafs.core - WARNING - (#DES:272)	--- Unreacheable DST:	4_(0-4) 
+2023-03-01 12:58:05,899 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:219
+2023-03-01 12:58:05,899 - yafs.core - WARNING - (#DES:219)	--- Unreacheable DST:	2_(0-4) 
+2023-03-01 12:58:05,900 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:266
+2023-03-01 12:58:05,900 - yafs.core - WARNING - (#DES:266)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:05,901 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:264
+2023-03-01 12:58:05,901 - yafs.core - WARNING - (#DES:264)	--- Unreacheable DST:	4_(0-6) 
+2023-03-01 12:58:05,903 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:255
+2023-03-01 12:58:06,035 - root - INFO - Activating Custom process - number 9 
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 0_03 from 1 to 60 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 4_06 from 5 to 61 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 2_04 from 7 to 5 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 3_06 from 8 to 4 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 1_03 from 10 to 28 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 1_05 from 14 to 49 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 0_01 from 17 to 2 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 1_04 from 20 to 44 node
+2023-03-01 12:58:06,036 - root - INFO - Moving Service 4_05 from 21 to 29 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 0_05 from 23 to 20 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 4_04 from 24 to 20 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 2_03 from 25 to 19 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 1_06 from 28 to 17 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 3_01 from 29 to 53 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 0_06 from 35 to 18 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 1_02 from 35 to 29 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 3_05 from 37 to 19 node
+2023-03-01 12:58:06,037 - root - INFO - Moving Service 3_02 from 39 to 40 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 3_03 from 45 to 26 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 2_06 from 46 to 22 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 3_04 from 46 to 0 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 4_02 from 51 to 30 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 1_01 from 53 to 59 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 2_02 from 55 to 41 node
+2023-03-01 12:58:06,038 - root - INFO - Moving Service 2_05 from 55 to 43 node
+2023-03-01 12:58:06,039 - root - INFO - Moving Service 4_03 from 59 to 42 node
+2023-03-01 12:58:06,039 - root - INFO - Moving Service 0_04 from 62 to 11 node
+2023-03-01 12:58:06,039 - root - INFO - Moving Service 2_01 from 62 to 16 node
+2023-03-01 12:58:06,042 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:301
+2023-03-01 12:58:06,042 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:288
+2023-03-01 12:58:06,042 - yafs.core - WARNING - (#DES:301)	--- Unreacheable DST:	1_(0-3) 
+2023-03-01 12:58:06,043 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:293
+2023-03-01 12:58:06,043 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:275
+2023-03-01 12:58:06,044 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:295
+2023-03-01 12:58:06,044 - yafs.core - WARNING - (#DES:295)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:06,044 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:285
+2023-03-01 12:58:06,045 - yafs.core - WARNING - (#DES:285)	--- Unreacheable DST:	2_(0-4) 
+2023-03-01 12:58:06,046 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:299
+2023-03-01 12:58:06,046 - yafs.core - WARNING - (#DES:299)	--- Unreacheable DST:	2_(0-6) 
+2023-03-01 12:58:06,046 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:277
+2023-03-01 12:58:06,046 - yafs.core - WARNING - (#DES:277)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:06,048 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:300
+2023-03-01 12:58:06,048 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:302
+2023-03-01 12:58:06,048 - yafs.core - WARNING - (#DES:302)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:06,199 - root - INFO - Activating Custom process - number 10 
+2023-03-01 12:58:06,200 - root - INFO - Moving Service 3_04 from 0 to 7 node
+2023-03-01 12:58:06,200 - root - INFO - Moving Service 4_01 from 1 to 5 node
+2023-03-01 12:58:06,201 - root - INFO - Moving Service 3_06 from 4 to 33 node
+2023-03-01 12:58:06,201 - root - INFO - Moving Service 2_04 from 5 to 46 node
+2023-03-01 12:58:06,203 - root - INFO - Moving Service 0_04 from 11 to 44 node
+2023-03-01 12:58:06,204 - root - INFO - Moving Service 2_01 from 16 to 33 node
+2023-03-01 12:58:06,206 - root - INFO - Moving Service 1_06 from 17 to 25 node
+2023-03-01 12:58:06,206 - root - INFO - Moving Service 0_06 from 18 to 9 node
+2023-03-01 12:58:06,207 - root - INFO - Moving Service 2_03 from 19 to 0 node
+2023-03-01 12:58:06,207 - root - INFO - Moving Service 3_05 from 19 to 8 node
+2023-03-01 12:58:06,208 - root - INFO - Moving Service 0_05 from 20 to 38 node
+2023-03-01 12:58:06,210 - root - INFO - Moving Service 4_04 from 20 to 33 node
+2023-03-01 12:58:06,211 - root - INFO - Moving Service 2_06 from 22 to 55 node
+2023-03-01 12:58:06,212 - root - INFO - Moving Service 3_03 from 26 to 57 node
+2023-03-01 12:58:06,213 - root - INFO - Moving Service 1_03 from 28 to 20 node
+2023-03-01 12:58:06,213 - root - INFO - Moving Service 1_02 from 29 to 58 node
+2023-03-01 12:58:06,215 - root - INFO - Moving Service 4_05 from 29 to 27 node
+2023-03-01 12:58:06,216 - root - INFO - Moving Service 4_02 from 30 to 50 node
+2023-03-01 12:58:06,217 - root - INFO - Moving Service 3_02 from 40 to 62 node
+2023-03-01 12:58:06,217 - root - INFO - Moving Service 2_02 from 41 to 10 node
+2023-03-01 12:58:06,218 - root - INFO - Moving Service 4_03 from 42 to 47 node
+2023-03-01 12:58:06,218 - root - INFO - Moving Service 2_05 from 43 to 26 node
+2023-03-01 12:58:06,218 - root - INFO - Moving Service 1_04 from 44 to 3 node
+2023-03-01 12:58:06,219 - root - INFO - Moving Service 0_02 from 45 to 44 node
+2023-03-01 12:58:06,219 - root - INFO - Moving Service 1_05 from 49 to 48 node
+2023-03-01 12:58:06,219 - root - INFO - Moving Service 3_01 from 53 to 62 node
+2023-03-01 12:58:06,220 - root - INFO - Moving Service 1_01 from 59 to 20 node
+2023-03-01 12:58:06,220 - root - INFO - Moving Service 0_03 from 60 to 11 node
+2023-03-01 12:58:06,220 - root - INFO - Moving Service 4_06 from 61 to 16 node
+2023-03-01 12:58:06,223 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:311
+2023-03-01 12:58:06,223 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:305
+2023-03-01 12:58:06,223 - yafs.core - WARNING - (#DES:311)	--- Unreacheable DST:	1_(0-5) 
+2023-03-01 12:58:06,224 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:324
+2023-03-01 12:58:06,225 - yafs.core - WARNING - (#DES:324)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:06,225 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:321
+2023-03-01 12:58:06,226 - yafs.core - WARNING - (#DES:321)	--- Unreacheable DST:	3_(0-3) 
+2023-03-01 12:58:06,227 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:306
+2023-03-01 12:58:06,227 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:330
+2023-03-01 12:58:06,228 - yafs.core - WARNING - (#DES:306)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:06,230 - yafs.core - WARNING - (#DES:330)	--- Unreacheable DST:	0_(0-5) 
+2023-03-01 12:58:06,231 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:329
+2023-03-01 12:58:06,232 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:318
+2023-03-01 12:58:06,232 - yafs.core - WARNING - (#DES:329)	--- Unreacheable DST:	4_(0-4) 
+2023-03-01 12:58:06,233 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:316
+2023-03-01 12:58:06,335 - root - INFO - Activating Custom process - number 11 
+2023-03-01 12:58:06,335 - root - INFO - Moving Service 2_03 from 0 to 39 node
+2023-03-01 12:58:06,336 - root - INFO - Moving Service 0_01 from 2 to 33 node
+2023-03-01 12:58:06,336 - root - INFO - Moving Service 1_04 from 3 to 22 node
+2023-03-01 12:58:06,336 - root - INFO - Moving Service 4_01 from 5 to 15 node
+2023-03-01 12:58:06,336 - root - INFO - Moving Service 3_04 from 7 to 6 node
+2023-03-01 12:58:06,337 - root - INFO - Moving Service 3_05 from 8 to 24 node
+2023-03-01 12:58:06,337 - root - INFO - Moving Service 0_06 from 9 to 36 node
+2023-03-01 12:58:06,337 - root - INFO - Moving Service 2_02 from 10 to 60 node
+2023-03-01 12:58:06,337 - root - INFO - Moving Service 0_03 from 11 to 21 node
+2023-03-01 12:58:06,338 - root - INFO - Moving Service 4_06 from 16 to 31 node
+2023-03-01 12:58:06,338 - root - INFO - Moving Service 1_01 from 20 to 46 node
+2023-03-01 12:58:06,338 - root - INFO - Moving Service 1_03 from 20 to 7 node
+2023-03-01 12:58:06,338 - root - INFO - Moving Service 1_06 from 25 to 51 node
+2023-03-01 12:58:06,339 - root - INFO - Moving Service 2_05 from 26 to 45 node
+2023-03-01 12:58:06,339 - root - INFO - Moving Service 4_05 from 27 to 13 node
+2023-03-01 12:58:06,339 - root - INFO - Moving Service 3_06 from 33 to 61 node
+2023-03-01 12:58:06,339 - root - INFO - Moving Service 4_04 from 33 to 8 node
+2023-03-01 12:58:06,340 - root - INFO - Moving Service 0_05 from 38 to 5 node
+2023-03-01 12:58:06,340 - root - INFO - Moving Service 0_02 from 44 to 27 node
+2023-03-01 12:58:06,340 - root - INFO - Moving Service 0_04 from 44 to 23 node
+2023-03-01 12:58:06,340 - root - INFO - Moving Service 2_04 from 46 to 32 node
+2023-03-01 12:58:06,340 - root - INFO - Moving Service 4_03 from 47 to 28 node
+2023-03-01 12:58:06,341 - root - INFO - Moving Service 1_05 from 48 to 33 node
+2023-03-01 12:58:06,341 - root - INFO - Moving Service 4_02 from 50 to 58 node
+2023-03-01 12:58:06,341 - root - INFO - Moving Service 2_06 from 55 to 44 node
+2023-03-01 12:58:06,341 - root - INFO - Moving Service 3_03 from 57 to 4 node
+2023-03-01 12:58:06,342 - root - INFO - Moving Service 1_02 from 58 to 45 node
+2023-03-01 12:58:06,342 - root - INFO - Moving Service 3_02 from 62 to 13 node
+2023-03-01 12:58:06,343 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:335
+2023-03-01 12:58:06,343 - yafs.core - WARNING - (#DES:335)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:06,344 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:354
+2023-03-01 12:58:06,344 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:347
+2023-03-01 12:58:06,344 - yafs.core - WARNING - (#DES:354)	--- Unreacheable DST:	1_(0-5) 
+2023-03-01 12:58:06,344 - yafs.core - WARNING - (#DES:347)	--- Unreacheable DST:	1_(0-3) 
+2023-03-01 12:58:06,345 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:343
+2023-03-01 12:58:06,345 - yafs.core - WARNING - (#DES:343)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:06,345 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:344
+2023-03-01 12:58:06,346 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:359
+2023-03-01 12:58:06,346 - yafs.core - WARNING - (#DES:359)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:06,347 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:360
+2023-03-01 12:58:06,347 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:342
+2023-03-01 12:58:06,348 - yafs.core - WARNING - (#DES:342)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:06,348 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:332
+2023-03-01 12:58:06,349 - yafs.core - WARNING - (#DES:332)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:06,448 - root - INFO - Activating Custom process - number 12 
+2023-03-01 12:58:06,449 - root - INFO - Moving Service 3_03 from 4 to 25 node
+2023-03-01 12:58:06,449 - root - INFO - Moving Service 0_05 from 5 to 47 node
+2023-03-01 12:58:06,449 - root - INFO - Moving Service 1_03 from 7 to 43 node
+2023-03-01 12:58:06,450 - root - INFO - Moving Service 4_04 from 8 to 50 node
+2023-03-01 12:58:06,450 - root - INFO - Moving Service 3_02 from 13 to 32 node
+2023-03-01 12:58:06,450 - root - INFO - Moving Service 4_05 from 13 to 62 node
+2023-03-01 12:58:06,451 - root - INFO - Moving Service 4_01 from 15 to 12 node
+2023-03-01 12:58:06,451 - root - INFO - Moving Service 0_03 from 21 to 60 node
+2023-03-01 12:58:06,452 - root - INFO - Moving Service 1_04 from 22 to 35 node
+2023-03-01 12:58:06,453 - root - INFO - Moving Service 0_04 from 23 to 35 node
+2023-03-01 12:58:06,454 - root - INFO - Moving Service 3_05 from 24 to 4 node
+2023-03-01 12:58:06,454 - root - INFO - Moving Service 0_02 from 27 to 34 node
+2023-03-01 12:58:06,455 - root - INFO - Moving Service 4_03 from 28 to 60 node
+2023-03-01 12:58:06,456 - root - INFO - Moving Service 4_06 from 31 to 55 node
+2023-03-01 12:58:06,457 - root - INFO - Moving Service 2_04 from 32 to 60 node
+2023-03-01 12:58:06,458 - root - INFO - Moving Service 0_01 from 33 to 56 node
+2023-03-01 12:58:06,462 - root - INFO - Moving Service 1_05 from 33 to 5 node
+2023-03-01 12:58:06,463 - root - INFO - Moving Service 2_01 from 33 to 5 node
+2023-03-01 12:58:06,463 - root - INFO - Moving Service 0_06 from 36 to 59 node
+2023-03-01 12:58:06,465 - root - INFO - Moving Service 2_03 from 39 to 36 node
+2023-03-01 12:58:06,465 - root - INFO - Moving Service 2_06 from 44 to 51 node
+2023-03-01 12:58:06,466 - root - INFO - Moving Service 1_02 from 45 to 39 node
+2023-03-01 12:58:06,466 - root - INFO - Moving Service 1_01 from 46 to 4 node
+2023-03-01 12:58:06,467 - root - INFO - Moving Service 1_06 from 51 to 35 node
+2023-03-01 12:58:06,467 - root - INFO - Moving Service 4_02 from 58 to 10 node
+2023-03-01 12:58:06,468 - root - INFO - Moving Service 2_02 from 60 to 35 node
+2023-03-01 12:58:06,468 - root - INFO - Moving Service 3_06 from 61 to 7 node
+2023-03-01 12:58:06,468 - root - INFO - Moving Service 3_01 from 62 to 53 node
+2023-03-01 12:58:06,469 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:373
+2023-03-01 12:58:06,471 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:382
+2023-03-01 12:58:06,472 - yafs.core - WARNING - (#DES:382)	--- Unreacheable DST:	4_(0-4) 
+2023-03-01 12:58:06,473 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:386
+2023-03-01 12:58:06,473 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:376
+2023-03-01 12:58:06,473 - yafs.core - WARNING - (#DES:386)	--- Unreacheable DST:	3_(0-4) 
+2023-03-01 12:58:06,475 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:380
+2023-03-01 12:58:06,476 - yafs.core - WARNING - (#DES:380)	--- Unreacheable DST:	0_(0-5) 
+2023-03-01 12:58:06,476 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:361
+2023-03-01 12:58:06,477 - yafs.core - WARNING - (#DES:361)	--- Unreacheable DST:	2_(0-4) 
+2023-03-01 12:58:06,478 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:383
+2023-03-01 12:58:06,478 - yafs.core - WARNING - (#DES:383)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:06,482 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:370
+2023-03-01 12:58:06,483 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:369
+2023-03-01 12:58:06,483 - yafs.core - WARNING - (#DES:369)	--- Unreacheable DST:	0_(0-4) 
+2023-03-01 12:58:06,601 - root - INFO - Activating Custom process - number 13 
+2023-03-01 12:58:06,602 - root - INFO - Moving Service 1_01 from 4 to 59 node
+2023-03-01 12:58:06,602 - root - INFO - Moving Service 3_05 from 4 to 60 node
+2023-03-01 12:58:06,602 - root - INFO - Moving Service 1_05 from 5 to 26 node
+2023-03-01 12:58:06,603 - root - INFO - Moving Service 2_01 from 5 to 51 node
+2023-03-01 12:58:06,603 - root - INFO - Moving Service 3_04 from 6 to 17 node
+2023-03-01 12:58:06,604 - root - INFO - Moving Service 3_06 from 7 to 21 node
+2023-03-01 12:58:06,604 - root - INFO - Moving Service 4_02 from 10 to 59 node
+2023-03-01 12:58:06,604 - root - INFO - Moving Service 4_01 from 12 to 9 node
+2023-03-01 12:58:06,605 - root - INFO - Moving Service 3_03 from 25 to 23 node
+2023-03-01 12:58:06,606 - root - INFO - Moving Service 3_02 from 32 to 20 node
+2023-03-01 12:58:06,607 - root - INFO - Moving Service 0_02 from 34 to 17 node
+2023-03-01 12:58:06,608 - root - INFO - Moving Service 0_04 from 35 to 33 node
+2023-03-01 12:58:06,608 - root - INFO - Moving Service 1_04 from 35 to 59 node
+2023-03-01 12:58:06,609 - root - INFO - Moving Service 1_06 from 35 to 40 node
+2023-03-01 12:58:06,609 - root - INFO - Moving Service 2_03 from 36 to 18 node
+2023-03-01 12:58:06,610 - root - INFO - Moving Service 1_02 from 39 to 26 node
+2023-03-01 12:58:06,610 - root - INFO - Moving Service 1_03 from 43 to 14 node
+2023-03-01 12:58:06,611 - root - INFO - Moving Service 2_05 from 45 to 23 node
+2023-03-01 12:58:06,611 - root - INFO - Moving Service 0_05 from 47 to 57 node
+2023-03-01 12:58:06,611 - root - INFO - Moving Service 4_04 from 50 to 46 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 2_06 from 51 to 60 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 3_01 from 53 to 42 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 4_06 from 55 to 16 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 0_01 from 56 to 1 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 0_06 from 59 to 46 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 0_03 from 60 to 10 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 2_04 from 60 to 32 node
+2023-03-01 12:58:06,612 - root - INFO - Moving Service 4_03 from 60 to 21 node
+2023-03-01 12:58:06,613 - root - INFO - Moving Service 4_05 from 62 to 5 node
+2023-03-01 12:58:06,614 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:400
+2023-03-01 12:58:06,614 - yafs.core - WARNING - (#DES:400)	--- Unreacheable DST:	0_(0-3) 
+2023-03-01 12:58:06,615 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:398
+2023-03-01 12:58:06,615 - yafs.core - WARNING - (#DES:398)	--- Unreacheable DST:	0_(0-5) 
+2023-03-01 12:58:06,616 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:365
+2023-03-01 12:58:06,617 - yafs.core - WARNING - (#DES:365)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:06,617 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:397
+2023-03-01 12:58:06,617 - yafs.core - WARNING - (#DES:397)	--- Unreacheable DST:	1_(0-5) 
+2023-03-01 12:58:06,618 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:402
+2023-03-01 12:58:06,618 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:393
+2023-03-01 12:58:06,618 - yafs.core - WARNING - (#DES:393)	--- Unreacheable DST:	3_(0-3) 
+2023-03-01 12:58:06,618 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:412
+2023-03-01 12:58:06,619 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:392
+2023-03-01 12:58:06,619 - yafs.core - WARNING - (#DES:392)	--- Unreacheable DST:	4_(0-5) 
+2023-03-01 12:58:06,620 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:403
+2023-03-01 12:58:06,620 - yafs.core - WARNING - (#DES:403)	--- Unreacheable DST:	2_(0-5) 
+2023-03-01 12:58:06,620 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:407
+2023-03-01 12:58:06,621 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:409
+2023-03-01 12:58:06,716 - root - INFO - Activating Custom process - number 14 
+2023-03-01 12:58:06,716 - root - INFO - Moving Service 0_01 from 1 to 25 node
+2023-03-01 12:58:06,716 - root - INFO - Moving Service 4_05 from 5 to 13 node
+2023-03-01 12:58:06,716 - root - INFO - Moving Service 4_01 from 9 to 34 node
+2023-03-01 12:58:06,716 - root - INFO - Moving Service 0_03 from 10 to 25 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 1_03 from 14 to 17 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 4_06 from 16 to 20 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 0_02 from 17 to 18 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 3_04 from 17 to 37 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 2_03 from 18 to 51 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 3_02 from 20 to 25 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 3_06 from 21 to 52 node
+2023-03-01 12:58:06,717 - root - INFO - Moving Service 4_03 from 21 to 41 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 2_05 from 23 to 56 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 3_03 from 23 to 37 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 1_02 from 26 to 6 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 1_05 from 26 to 42 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 2_04 from 32 to 27 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 0_04 from 33 to 55 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 2_02 from 35 to 52 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 1_06 from 40 to 41 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 3_01 from 42 to 0 node
+2023-03-01 12:58:06,718 - root - INFO - Moving Service 0_06 from 46 to 37 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 4_04 from 46 to 11 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 2_01 from 51 to 26 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 0_05 from 57 to 22 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 1_01 from 59 to 9 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 1_04 from 59 to 21 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 4_02 from 59 to 17 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 2_06 from 60 to 48 node
+2023-03-01 12:58:06,719 - root - INFO - Moving Service 3_05 from 60 to 42 node
+2023-03-01 12:58:06,720 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:441
+2023-03-01 12:58:06,721 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:431
+2023-03-01 12:58:06,721 - yafs.core - WARNING - (#DES:431)	--- Unreacheable DST:	2_(0-4) 
+2023-03-01 12:58:06,721 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:422
+2023-03-01 12:58:06,722 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:445
+2023-03-01 12:58:06,722 - yafs.core - WARNING - (#DES:445)	--- Unreacheable DST:	4_(0-6) 
+2023-03-01 12:58:06,722 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:419
+2023-03-01 12:58:06,722 - yafs.core - WARNING - (#DES:419)	--- Unreacheable DST:	1_(0-6) 
+2023-03-01 12:58:06,723 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:421
+2023-03-01 12:58:06,723 - yafs.core - WARNING - (#DES:421)	--- Unreacheable DST:	3_(0-5) 
+2023-03-01 12:58:06,723 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:435
+2023-03-01 12:58:06,723 - yafs.core - WARNING - (#DES:435)	--- Unreacheable DST:	0_(0-6) 
+2023-03-01 12:58:06,724 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:437
+2023-03-01 12:58:06,724 - yafs.core - CRITICAL - Make sure that this node has been removed or it has all mandatory attributes - Node: DES:444
+2023-03-01 12:58:06,725 - yafs.core - WARNING - (#DES:444)	--- Unreacheable DST:	4_(0-4) 

@@ -1,0 +1,239 @@
+{
+  "initialAllocation": [
+    {
+      "module_name": "0_01",
+      "app": 0,
+      "id_resource": 0
+    },
+    {
+      "module_name": "0_02",
+      "app": 0,
+      "id_resource": 0
+    },
+        {
+      "module_name": "0_03",
+      "app": 0,
+      "id_resource": 0
+    },
+    {
+      "module_name": "0_04",
+      "app": 0,
+      "id_resource": 0
+    },
+    {
+      "module_name": "0_05",
+      "app": 0,
+      "id_resource": 0
+    },
+    {
+      "module_name": "0_06",
+      "app": 0,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_01",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_02",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_03",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_04",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_05",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "1_06",
+      "app": 1,
+      "id_resource": 0
+    },
+    {
+      "module_name": "2_01",
+      "app": 2,
+      "id_resource": 0
+    },
+    {
+      "module_name": "2_02",
+      "app": 2,
+      "id_resource": 0
+    },{
+      "module_name": "2_03",
+      "app": 2,
+      "id_resource": 0
+    },{
+      "module_name": "2_04",
+      "app": 2,
+      "id_resource": 0
+    },{
+      "module_name": "2_05",
+      "app": 2,
+      "id_resource": 0
+    },{
+      "module_name": "2_06",
+      "app": 2,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_01",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_02",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_03",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_04",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_05",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "3_06",
+      "app": 3,
+      "id_resource": 0
+    },
+    {
+      "module_name": "4_01",
+      "app": 4,
+      "id_resource": 0
+    },
+        {
+      "module_name": "4_02",
+      "app": 4,
+      "id_resource": 0
+    },
+        {
+      "module_name": "4_03",
+      "app": 4,
+      "id_resource": 0
+    },
+        {
+      "module_name": "4_04",
+      "app": 4,
+      "id_resource": 0
+    },
+    {
+      "module_name": "4_05",
+      "app": 4,
+      "id_resource": 0
+    },
+    {
+      "module_name": "4_06",
+      "app": 4,
+      "id_resource": 0
+    },
+    {
+      "module_name": "5_01",
+      "app": 5,
+      "id_resource": 0
+    },
+        {
+      "module_name": "5_02",
+      "app": 5,
+      "id_resource": 0
+    },
+        {
+      "module_name": "5_03",
+      "app": 5,
+      "id_resource": 0
+    },
+        {
+      "module_name": "5_04",
+      "app": 5,
+      "id_resource": 0
+    },
+    {
+      "module_name": "5_05",
+      "app": 5,
+      "id_resource": 0
+    },
+    {
+      "module_name": "5_06",
+      "app": 5,
+      "id_resource": 0
+    },{
+      "module_name": "6_01",
+      "app": 6,
+      "id_resource": 0
+    },
+        {
+      "module_name": "6_02",
+      "app": 6,
+      "id_resource": 0
+    },
+        {
+      "module_name": "6_03",
+      "app": 6,
+      "id_resource": 0
+    },
+        {
+      "module_name": "6_04",
+      "app": 6,
+      "id_resource": 0
+    },
+    {
+      "module_name": "6_05",
+      "app": 6,
+      "id_resource": 0
+    },
+    {
+      "module_name": "6_06",
+      "app": 6,
+      "id_resource": 0
+    },
+    {
+      "module_name": "7_01",
+      "app": 7,
+      "id_resource": 0
+    },
+        {
+      "module_name": "7_02",
+      "app": 7,
+      "id_resource": 0
+    },
+        {
+      "module_name": "7_03",
+      "app": 7,
+      "id_resource": 0
+    },
+        {
+      "module_name": "7_04",
+      "app": 7,
+      "id_resource": 0
+    },
+    {
+      "module_name": "7_05",
+      "app": 7,
+      "id_resource": 0
+    },
+    {
+      "module_name": "7_06",
+      "app": 7,
+      "id_resource": 0
+    }
+  ]
+}
